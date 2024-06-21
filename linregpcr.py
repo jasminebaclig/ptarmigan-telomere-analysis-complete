@@ -1,3 +1,6 @@
+# Calculates individual efficiencies for qPCR assays
+# Author: Jasmine Baclig
+
 import rdmlpython as rdml
 import os
 import sys
