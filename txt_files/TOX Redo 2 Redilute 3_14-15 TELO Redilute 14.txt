@@ -1,0 +1,97 @@
+﻿Color	Position	Sample Name	Gene Name	Cq	Cq Error	Concentration	Call	Excluded	Sample Type	Standard	Cq Mean	Concentration Mean	Concentration Error	Replicate Group	Dye	Edited Call	Slope	EPF	Failure	Notes	Sample Prep Notes	Number
+255;0;0;255	B12	18-036	TELO	12.98	1.29	-	Positive	Unchecked	Unknown	-	12.07	-	-	B11	SYBR Green I	 	1.81	4.87	None			24
+255;0;0;255	B11	18-036	TELO	11.15	1.29	-	Positive	Unchecked	Unknown	-	12.07	-	-	B11	SYBR Green I	 	1.58	4.66	None			23
+255;0;0;255	A12	18-028	TELO	8.89	0.40	-	Positive	Unchecked	Unknown	-	8.61	-	-	A11	SYBR Green I	 	0.90	3.88	None			12
+255;0;0;255	A11	18-028	TELO	8.32	0.40	-	Positive	Unchecked	Unknown	-	8.61	-	-	A11	SYBR Green I	 	0.81	3.73	None			11
+255;0;0;255	A6	08-023	TOX	24.70	0.14	-	Positive	Unchecked	Unknown	-	24.60	-	-	A5	SYBR Green I	 	0.47	2.59	None			6
+255;0;0;255	A5	08-023	TOX	24.50	0.14	-	Positive	Unchecked	Unknown	-	24.60	-	-	A5	SYBR Green I	 	0.49	2.65	None			5
+255;0;0;255	F6	08-074	TOX	24.31	0.13	-	Positive	Unchecked	Unknown	-	24.40	-	-	F5	SYBR Green I	 	0.33	2.16	None			66
+255;0;0;255	F5	08-074	TOX	24.49	0.13	-	Positive	Unchecked	Unknown	-	24.40	-	-	F5	SYBR Green I	 	0.40	2.36	None			65
+255;0;0;255	D12	GB	TELO	18.26	0.12	-	Positive	Unchecked	Positive control	-	18.42	-	-	C11	SYBR Green I	 	2.25	6.04	None			48
+255;0;0;255	D11	GB	TELO	18.52	0.12	-	Positive	Unchecked	Positive control	-	18.42	-	-	C11	SYBR Green I	 	2.18	5.97	None			47
+255;0;0;255	C12	GB	TELO	18.40	0.12	-	Positive	Unchecked	Positive control	-	18.42	-	-	C11	SYBR Green I	 	2.22	6.00	None			36
+255;0;0;255	C11	GB	TELO	18.49	0.12	-	Positive	Unchecked	Positive control	-	18.42	-	-	C11	SYBR Green I	 	2.19	6.00	None			35
+255;0;0;255	E8	GB	TOX	26.21	0.11	-	Positive	Unchecked	Positive control	-	26.11	-	-	D7	SYBR Green I	 	0.64	2.49	None			56
+255;0;0;255	E7	GB	TOX	26.16	0.11	-	Positive	Unchecked	Positive control	-	26.11	-	-	D7	SYBR Green I	 	0.64	2.51	None			55
+255;0;0;255	D8	GB	TOX	26.10	0.11	-	Positive	Unchecked	Positive control	-	26.11	-	-	D7	SYBR Green I	 	0.63	2.49	None			44
+255;0;0;255	D7	GB	TOX	25.95	0.11	-	Positive	Unchecked	Positive control	-	26.11	-	-	D7	SYBR Green I	 	0.47	2.50	None			43
+255;0;0;255	G4	08-015	TOX	25.21	0.08	-	Positive	Unchecked	Unknown	-	25.15	-	-	G3	SYBR Green I	 	0.45	2.50	None			76
+255;0;0;255	G3	08-015	TOX	25.09	0.08	-	Positive	Unchecked	Unknown	-	25.15	-	-	G3	SYBR Green I	 	0.42	2.42	None			75
+255;0;0;255	A4	17-329	TOX	23.00	0.07	-	Positive	Unchecked	Unknown	-	22.95	-	-	A3	SYBR Green I	 	0.48	2.75	None			4
+255;0;0;255	A3	17-329	TOX	22.90	0.07	-	Positive	Unchecked	Unknown	-	22.95	-	-	A3	SYBR Green I	 	0.45	2.66	None			3
+255;0;0;255	C4	18-092	TOX	23.27	0.06	-	Positive	Unchecked	Unknown	-	23.32	-	-	C3	SYBR Green I	 	0.51	2.78	None			28
+255;0;0;255	C3	18-092	TOX	23.36	0.06	-	Positive	Unchecked	Unknown	-	23.32	-	-	C3	SYBR Green I	 	0.51	2.77	None			27
+255;0;0;255	E6	13-024	TOX	23.25	0.06	-	Positive	Unchecked	Unknown	-	23.29	-	-	E5	SYBR Green I	 	0.55	2.84	None			54
+255;0;0;255	E5	13-024	TOX	23.33	0.06	-	Positive	Unchecked	Unknown	-	23.29	-	-	E5	SYBR Green I	 	0.55	2.85	None			53
+255;0;0;255	D4	18-036	TOX	23.37	0.04	-	Positive	Unchecked	Unknown	-	23.40	-	-	D3	SYBR Green I	 	0.44	2.60	None			40
+255;0;0;255	D3	18-036	TOX	23.43	0.04	-	Positive	Unchecked	Unknown	-	23.40	-	-	D3	SYBR Green I	 	0.46	2.65	None			39
+255;0;0;255	C8	16-045	TOX	21.85	0.03	-	Positive	Unchecked	Unknown	-	21.87	-	-	C7	SYBR Green I	 	0.16	1.69	None			32
+255;0;0;255	C7	16-045	TOX	21.89	0.03	-	Positive	Unchecked	Unknown	-	21.87	-	-	C7	SYBR Green I	 	0.14	1.57	None			31
+255;0;0;255	C6	10-143	TOX	23.14	0.03	-	Positive	Unchecked	Unknown	-	23.12	-	-	C5	SYBR Green I	 	0.52	2.82	None			30
+255;0;0;255	C5	10-143	TOX	23.10	0.03	-	Positive	Unchecked	Unknown	-	23.12	-	-	C5	SYBR Green I	 	0.52	2.84	None			29
+255;0;0;255	E4	18-100	TOX	23.39	0.02	-	Positive	Unchecked	Unknown	-	23.38	-	-	E3	SYBR Green I	 	0.53	2.84	None			52
+255;0;0;255	E3	18-100	TOX	23.36	0.02	-	Positive	Unchecked	Unknown	-	23.38	-	-	E3	SYBR Green I	 	0.52	2.81	None			51
+255;0;0;255	B6	09-114	TOX	23.56	0.02	-	Positive	Unchecked	Unknown	-	23.58	-	-	B5	SYBR Green I	 	0.51	2.77	None			18
+255;0;0;255	B5	09-114	TOX	23.59	0.02	-	Positive	Unchecked	Unknown	-	23.58	-	-	B5	SYBR Green I	 	0.52	2.78	None			17
+255;0;0;255	B4	18-028	TOX	21.59	0.02	-	Positive	Unchecked	Unknown	-	21.61	-	-	B3	SYBR Green I	 	0.17	1.84	None			16
+255;0;0;255	B3	18-028	TOX	21.62	0.02	-	Positive	Unchecked	Unknown	-	21.61	-	-	B3	SYBR Green I	 	0.17	1.84	None			15
+255;0;0;255	F4	18-099	TOX	23.16	0.01	-	Positive	Unchecked	Unknown	-	23.15	-	-	F3	SYBR Green I	 	0.45	2.66	None			64
+255;0;0;255	F3	18-099	TOX	23.14	0.01	-	Positive	Unchecked	Unknown	-	23.15	-	-	F3	SYBR Green I	 	0.44	2.61	None			63
+255;0;0;255	H4	08-020	TOX	24.97	0.01	-	Positive	Unchecked	Unknown	-	24.96	-	-	H3	SYBR Green I	 	0.49	2.61	None			88
+255;0;0;255	H3	08-020	TOX	24.95	0.01	-	Positive	Unchecked	Unknown	-	24.96	-	-	H3	SYBR Green I	 	0.47	2.57	None			87
+255;0;0;255	D6	06-030	TOX	24.84	0.01	-	Positive	Unchecked	Unknown	-	24.84	-	-	D5	SYBR Green I	 	0.56	2.71	None			42
+255;0;0;255	D5	06-030	TOX	24.83	0.01	-	Positive	Unchecked	Unknown	-	24.84	-	-	D5	SYBR Green I	 	0.55	2.72	None			41
+255;0;0;255	H12		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.03	0.27	None			96
+255;0;0;255	H11		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.04	0.39	None			95
+255;0;0;255	H10		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.04	0.42	None			94
+255;0;0;255	H9		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.05	0.78	None			93
+255;0;0;255	H8		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.05	0.56	None			92
+255;0;0;255	H7		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.05	0.50	None			91
+255;0;0;255	H6		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.05	0.54	None			90
+255;0;0;255	H5		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.05	0.46	None			89
+255;0;0;0	H2		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.04	0.74	None			86
+255;0;0;0	H1		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.03	0.46	None			85
+255;0;0;255	G12		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.03	0.33	None			84
+255;0;0;255	G11		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.03	0.42	None			83
+255;0;0;255	G10		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.03	-0.10	None			82
+255;0;0;255	G9		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.04	0.50	None			81
+255;0;0;255	G8		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.04	0.44	None			80
+255;0;0;255	G7		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.04	0.67	None			79
+255;0;0;255	G6		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.03	0.39	None			78
+255;0;0;255	G5		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.04	0.45	None			77
+255;0;255;0	G2		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.04	0.83	None			74
+255;0;255;0	G1		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.04	0.51	None			73
+255;0;0;255	F12		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.04	0.55	None			72
+255;0;0;255	F11		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.04	0.18	None			71
+255;0;0;255	F10		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.05	0.21	None			70
+255;0;0;255	F9		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.04	0.44	None			69
+255;0;0;255	F8	Negative	TOX	-	-	-	Negative	Unchecked	Negative control	-	-	-	-	F7	SYBR Green I	 	0.00	0.00	None			68
+255;0;0;255	F7	Negative	TOX	-	-	-	Negative	Unchecked	Negative control	-	-	-	-	F7	SYBR Green I	 	0.00	0.03	None			67
+255;0;255;0	F2		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.04	0.59	None			62
+255;0;255;0	F1		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.03	0.42	None			61
+255;0;0;255	E12	Negative	TELO	-	-	-	Negative	Unchecked	Negative control	-	-	-	-	E11	SYBR Green I	 	0.12	0.27	None			60
+255;0;0;255	E11	Negative	TELO	-	-	-	Negative	Unchecked	Negative control	-	-	-	-	E11	SYBR Green I	 	0.08	0.20	None			59
+255;0;0;255	E10		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.04	0.49	None			58
+255;0;0;255	E9		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.04	0.51	None			57
+255;255;0;0	E2		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.04	0.50	None			50
+255;255;0;0	E1		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.03	0.46	None			49
+255;0;0;255	D10		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.04	0.47	None			46
+255;0;0;255	D9		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.04	0.49	None			45
+255;0;0;255	D2		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.04	0.52	None			38
+255;0;0;255	D1		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.03	0.52	None			37
+255;0;0;255	C10		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.05	0.51	None			34
+255;0;0;255	C9		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.04	0.45	None			33
+255;0;0;255	C2		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.04	0.52	None			26
+255;0;0;255	C1		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.03	0.46	None			25
+255;0;0;255	B10		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.04	0.48	None			22
+255;0;0;255	B9		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.04	0.46	None			21
+255;0;0;255	B8	12-374	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	B7	SYBR Green I	 	0.07	0.21	None			20
+255;0;0;255	B7	12-374	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	B7	SYBR Green I	 	0.11	0.31	None			19
+255;0;0;255	B2		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.04	0.51	None			14
+255;0;0;255	B1		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.04	0.50	None			13
+255;0;0;255	A10		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.06	0.82	None			10
+255;0;0;255	A9		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.06	0.66	None			9
+255;0;0;255	A8	12-090	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	A7	SYBR Green I	 	0.00	0.00	None			8
+255;0;0;255	A7	12-090	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	A7	SYBR Green I	 	0.00	0.01	None			7
+255;0;0;255	A2		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.03	0.48	None			2
+255;0;0;255	A1		None	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A1	SYBR Green I	 	0.03	0.47	None			1

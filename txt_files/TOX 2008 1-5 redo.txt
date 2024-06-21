@@ -1,0 +1,97 @@
+﻿Color	Position	Sample Name	Gene Name	Cq	Cq Error	Concentration	Call	Excluded	Sample Type	Standard	Cq Mean	Concentration Mean	Concentration Error	Replicate Group	Dye	Edited Call	Slope	EPF	Failure	Notes	Sample Prep Notes	Number
+255;0;0;255	D4	08-015	TOX	33.05	0.54	-	Positive	Unchecked	Unknown	-	33.44	-	-	D3	SYBR Green I	 	0.35	0.63	None			40
+255;0;0;255	D3	08-015	TOX	33.82	0.54	-	Positive	Unchecked	Unknown	-	33.44	-	-	D3	SYBR Green I	 	0.20	0.38	None			39
+255;0;0;255	H10	08-068	TOX	32.45	0.50	-	Positive	Unchecked	Unknown	-	32.81	-	-	H9	SYBR Green I	 	0.62	0.97	None			94
+255;0;0;255	H9	08-068	TOX	33.16	0.50	-	Positive	Unchecked	Unknown	-	32.81	-	-	H9	SYBR Green I	 	0.38	0.64	None			93
+255;0;0;255	G10	08-066	TOX	30.21	0.47	-	Positive	Unchecked	Unknown	-	29.88	-	-	G9	SYBR Green I	 	0.84	2.12	None			82
+255;0;0;255	G9	08-066	TOX	29.54	0.47	-	Positive	Unchecked	Unknown	-	29.88	-	-	G9	SYBR Green I	 	0.87	2.49	None			81
+255;0;0;255	D10	08-052	TOX	30.80	0.44	-	Positive	Unchecked	Unknown	-	31.11	-	-	D9	SYBR Green I	 	0.91	1.83	None			46
+255;0;0;255	D9	08-052	TOX	31.42	0.44	-	Positive	Unchecked	Unknown	-	31.11	-	-	D9	SYBR Green I	 	0.96	1.46	None			45
+255;0;0;255	A10	08-048	TOX	30.36	0.43	-	Positive	Unchecked	Unknown	-	30.67	-	-	A9	SYBR Green I	 	0.75	1.97	None			10
+255;0;0;255	A9	08-048	TOX	30.97	0.43	-	Positive	Unchecked	Unknown	-	30.67	-	-	A9	SYBR Green I	 	0.90	1.72	None			9
+255;0;0;255	E10	08-057	TOX	29.93	0.29	-	Positive	Unchecked	Unknown	-	29.73	-	-	E9	SYBR Green I	 	0.90	2.31	None			58
+255;0;0;255	E9	08-057	TOX	29.52	0.29	-	Positive	Unchecked	Unknown	-	29.73	-	-	E9	SYBR Green I	 	0.90	2.53	None			57
+255;0;0;255	F12	08-081	TOX	26.68	0.23	-	Positive	Unchecked	Unknown	-	26.85	-	-	F11	SYBR Green I	 	0.81	2.72	None			72
+255;0;0;255	F11	08-081	TOX	27.01	0.23	-	Positive	Unchecked	Unknown	-	26.85	-	-	F11	SYBR Green I	 	0.86	2.73	None			71
+255;0;0;255	A6	08-017	TOX	29.43	0.22	-	Positive	Unchecked	Unknown	-	29.59	-	-	A5	SYBR Green I	 	0.87	2.54	None			6
+255;0;0;255	A5	08-017	TOX	29.74	0.22	-	Positive	Unchecked	Unknown	-	29.59	-	-	A5	SYBR Green I	 	0.93	2.47	None			5
+255;0;0;255	D6	08-031	TOX	27.54	0.21	-	Positive	Unchecked	Unknown	-	27.40	-	-	D5	SYBR Green I	 	0.87	2.63	None			42
+255;0;0;255	D5	08-031	TOX	27.25	0.21	-	Positive	Unchecked	Unknown	-	27.40	-	-	D5	SYBR Green I	 	0.86	2.66	None			41
+255;0;0;255	C8	08-045	TOX	28.66	0.20	-	Positive	Unchecked	Unknown	-	28.80	-	-	C7	SYBR Green I	 	0.86	2.71	None			32
+255;0;0;255	C7	08-045	TOX	28.94	0.20	-	Positive	Unchecked	Unknown	-	28.80	-	-	C7	SYBR Green I	 	0.85	2.63	None			31
+255;0;0;255	C4	08-008	TOX	32.06	0.19	-	Positive	Unchecked	Unknown	-	32.20	-	-	C3	SYBR Green I	 	0.79	1.18	None			28
+255;0;0;255	C3	08-008	TOX	32.33	0.19	-	Positive	Unchecked	Unknown	-	32.20	-	-	C3	SYBR Green I	 	0.65	1.02	None			27
+255;0;0;255	H12	08-084	TOX	29.58	0.17	-	Positive	Unchecked	Unknown	-	29.46	-	-	H11	SYBR Green I	 	0.78	2.34	None			96
+255;0;0;255	H11	08-084	TOX	29.34	0.17	-	Positive	Unchecked	Unknown	-	29.46	-	-	H11	SYBR Green I	 	0.82	2.48	None			95
+255;0;0;255	B12	08-059	TOX	30.16	0.16	-	Positive	Unchecked	Unknown	-	30.05	-	-	B11	SYBR Green I	 	0.86	2.19	None			24
+255;0;0;255	B11	08-059	TOX	29.94	0.16	-	Positive	Unchecked	Unknown	-	30.05	-	-	B11	SYBR Green I	 	0.83	2.30	None			23
+255;0;0;255	A8	08-033	TOX	28.02	0.15	-	Positive	Unchecked	Unknown	-	27.92	-	-	A7	SYBR Green I	 	0.87	2.52	None			8
+255;0;0;255	A7	08-033	TOX	27.81	0.15	-	Positive	Unchecked	Unknown	-	27.92	-	-	A7	SYBR Green I	 	0.80	2.46	None			7
+255;0;0;255	G12	08-083	TOX	25.79	0.13	-	Positive	Unchecked	Unknown	-	25.88	-	-	G11	SYBR Green I	 	0.70	2.93	None			84
+255;0;0;255	G11	08-083	TOX	25.97	0.13	-	Positive	Unchecked	Unknown	-	25.88	-	-	G11	SYBR Green I	 	0.67	2.84	None			83
+255;0;0;255	D8	08-046	TOX	29.64	0.13	-	Positive	Unchecked	Unknown	-	29.73	-	-	D7	SYBR Green I	 	0.89	2.47	None			44
+255;0;0;255	D7	08-046	TOX	29.82	0.13	-	Positive	Unchecked	Unknown	-	29.73	-	-	D7	SYBR Green I	 	0.90	2.38	None			43
+255;0;0;255	C10	08-051	TOX	28.74	0.12	-	Positive	Unchecked	Unknown	-	28.83	-	-	C9	SYBR Green I	 	0.85	2.52	None			34
+255;0;0;255	C9	08-051	TOX	28.91	0.12	-	Positive	Unchecked	Unknown	-	28.83	-	-	C9	SYBR Green I	 	0.84	2.64	None			33
+255;0;0;255	B10	08-050	TOX	28.69	0.11	-	Positive	Unchecked	Unknown	-	28.61	-	-	B9	SYBR Green I	 	0.78	2.59	None			22
+255;0;0;255	B9	08-050	TOX	28.53	0.11	-	Positive	Unchecked	Unknown	-	28.61	-	-	B9	SYBR Green I	 	0.80	2.69	None			21
+255;0;0;255	A12	08-053	TOX	28.82	0.11	-	Positive	Unchecked	Unknown	-	28.75	-	-	A11	SYBR Green I	 	0.80	2.29	None			12
+255;0;0;255	A11	08-053	TOX	28.67	0.11	-	Positive	Unchecked	Unknown	-	28.75	-	-	A11	SYBR Green I	 	0.78	2.64	None			11
+255;0;0;255	H8	08-054	TOX	29.89	0.10	-	Positive	Unchecked	Unknown	-	29.96	-	-	H7	SYBR Green I	 	0.91	2.40	None			92
+255;0;0;255	H7	08-054	TOX	30.03	0.10	-	Positive	Unchecked	Unknown	-	29.96	-	-	H7	SYBR Green I	 	0.88	2.29	None			91
+255;0;0;255	E12	08-073	TOX	30.08	0.10	-	Positive	Unchecked	Unknown	-	30.15	-	-	E11	SYBR Green I	 	0.96	2.32	None			60
+255;0;0;255	E11	08-073	TOX	30.22	0.10	-	Positive	Unchecked	Unknown	-	30.15	-	-	E11	SYBR Green I	 	0.91	2.18	None			59
+255;0;0;255	E6	08-011	TOX	27.30	0.08	-	Positive	Unchecked	Unknown	-	27.36	-	-	E5	SYBR Green I	 	0.86	2.66	None			54
+255;0;0;255	E5	08-011	TOX	27.42	0.08	-	Positive	Unchecked	Unknown	-	27.36	-	-	E5	SYBR Green I	 	0.87	2.65	None			53
+255;0;0;255	B6	08-018	TOX	27.63	0.08	-	Positive	Unchecked	Unknown	-	27.69	-	-	B5	SYBR Green I	 	0.81	2.52	None			18
+255;0;0;255	B5	08-018	TOX	27.74	0.08	-	Positive	Unchecked	Unknown	-	27.69	-	-	B5	SYBR Green I	 	0.82	2.51	None			17
+255;0;255;0	G2	GB	TOX	26.32	0.07	-	Positive	Unchecked	Positive control	-	26.37	-	-	G1	SYBR Green I	 	0.85	2.84	None			74
+255;0;255;0	G1	GB	TOX	26.42	0.07	-	Positive	Unchecked	Positive control	-	26.37	-	-	G1	SYBR Green I	 	0.89	2.88	None			73
+255;0;0;255	C12	08-075	TOX	28.02	0.07	-	Positive	Unchecked	Unknown	-	27.97	-	-	C11	SYBR Green I	 	0.88	2.54	None			36
+255;0;0;255	C11	08-075	TOX	27.92	0.07	-	Positive	Unchecked	Unknown	-	27.97	-	-	C11	SYBR Green I	 	0.84	2.50	None			35
+255;0;0;255	F10	08-063	TOX	28.06	0.06	-	Positive	Unchecked	Unknown	-	28.02	-	-	F9	SYBR Green I	 	0.85	2.49	None			70
+255;0;0;255	F9	08-063	TOX	27.97	0.06	-	Positive	Unchecked	Unknown	-	28.02	-	-	F9	SYBR Green I	 	0.85	2.52	None			69
+255;0;0;255	H6	08-034	TOX	25.72	0.05	-	Positive	Unchecked	Unknown	-	25.69	-	-	H5	SYBR Green I	 	0.67	2.65	None			90
+255;0;0;255	H5	08-034	TOX	25.65	0.05	-	Positive	Unchecked	Unknown	-	25.69	-	-	H5	SYBR Green I	 	0.74	2.84	None			89
+255;0;0;255	B8	08-043	TOX	29.03	0.05	-	Positive	Unchecked	Unknown	-	29.00	-	-	B7	SYBR Green I	 	0.87	2.64	None			20
+255;0;0;255	B7	08-043	TOX	28.96	0.05	-	Positive	Unchecked	Unknown	-	29.00	-	-	B7	SYBR Green I	 	0.85	2.63	None			19
+255;0;0;255	G4	08-006	TOX	28.58	0.04	-	Positive	Unchecked	Unknown	-	28.61	-	-	G3	SYBR Green I	 	0.89	2.81	None			76
+255;0;0;255	G3	08-006	TOX	28.64	0.04	-	Positive	Unchecked	Unknown	-	28.61	-	-	G3	SYBR Green I	 	0.81	2.39	None			75
+255;0;0;255	D12	08-077	TOX	31.90	0.04	-	Positive	Unchecked	Unknown	-	31.93	-	-	D11	SYBR Green I	 	0.90	1.29	None			48
+255;0;0;255	D11	08-077	TOX	31.96	0.04	-	Positive	Unchecked	Unknown	-	31.93	-	-	D11	SYBR Green I	 	0.89	1.28	None			47
+255;0;0;255	E4	08-002	TOX	29.18	0.04	-	Positive	Unchecked	Unknown	-	29.15	-	-	E3	SYBR Green I	 	0.93	2.70	None			52
+255;0;0;255	E3	08-002	TOX	29.12	0.04	-	Positive	Unchecked	Unknown	-	29.15	-	-	E3	SYBR Green I	 	0.94	2.72	None			51
+255;0;0;255	F6	08-012	TOX	26.31	0.04	-	Positive	Unchecked	Unknown	-	26.28	-	-	F5	SYBR Green I	 	0.84	2.82	None			66
+255;0;0;255	F5	08-012	TOX	26.25	0.04	-	Positive	Unchecked	Unknown	-	26.28	-	-	F5	SYBR Green I	 	0.83	2.82	None			65
+255;0;0;255	G6	08-022	TOX	25.91	0.04	-	Positive	Unchecked	Unknown	-	25.94	-	-	G5	SYBR Green I	 	0.65	2.83	None			78
+255;0;0;255	G5	08-022	TOX	25.96	0.04	-	Positive	Unchecked	Unknown	-	25.94	-	-	G5	SYBR Green I	 	0.65	2.84	None			77
+255;0;0;255	B4	08-007	TOX	29.94	0.04	-	Positive	Unchecked	Unknown	-	29.97	-	-	B3	SYBR Green I	 	0.86	2.27	None			16
+255;0;0;255	B3	08-007	TOX	29.99	0.04	-	Positive	Unchecked	Unknown	-	29.97	-	-	B3	SYBR Green I	 	0.86	2.23	None			15
+255;0;0;255	F8	08-044	TOX	26.32	0.03	-	Positive	Unchecked	Unknown	-	26.34	-	-	F7	SYBR Green I	 	0.82	2.81	None			68
+255;0;0;255	F7	08-044	TOX	26.36	0.03	-	Positive	Unchecked	Unknown	-	26.34	-	-	F7	SYBR Green I	 	0.81	2.78	None			67
+255;0;0;255	C6	08-024	TOX	28.07	0.03	-	Positive	Unchecked	Unknown	-	28.05	-	-	C5	SYBR Green I	 	0.86	2.51	None			30
+255;0;0;255	C5	08-024	TOX	28.03	0.03	-	Positive	Unchecked	Unknown	-	28.05	-	-	C5	SYBR Green I	 	0.86	2.53	None			29
+255;0;0;255	F4	08-004	TOX	26.49	0.02	-	Positive	Unchecked	Unknown	-	26.48	-	-	F3	SYBR Green I	 	0.84	2.81	None			64
+255;0;0;255	F3	08-004	TOX	26.46	0.02	-	Positive	Unchecked	Unknown	-	26.48	-	-	F3	SYBR Green I	 	0.82	2.77	None			63
+255;0;0;255	E8	08-042	TOX	26.59	0.01	-	Positive	Unchecked	Unknown	-	26.58	-	-	E7	SYBR Green I	 	0.79	2.70	None			56
+255;0;0;255	E7	08-042	TOX	26.57	0.01	-	Positive	Unchecked	Unknown	-	26.58	-	-	E7	SYBR Green I	 	0.81	2.74	None			55
+255;0;0;255	G8	08-047	TOX	26.67	0.01	-	Positive	Unchecked	Unknown	-	26.68	-	-	G7	SYBR Green I	 	0.79	2.71	None			80
+255;0;0;255	G7	08-047	TOX	26.69	0.01	-	Positive	Unchecked	Unknown	-	26.68	-	-	G7	SYBR Green I	 	0.79	2.67	None			79
+255;0;0;255	H4	08-010	TOX	27.55	0.00	-	Positive	Unchecked	Unknown	-	27.55	-	-	H3	SYBR Green I	 	0.87	2.63	None			88
+255;0;0;255	H3	08-010	TOX	27.55	0.00	-	Positive	Unchecked	Unknown	-	27.55	-	-	H3	SYBR Green I	 	0.87	2.64	None			87
+255;0;0;0	H2	Negative	TOX	-	-	-	Negative	Unchecked	Negative control	-	-	-	-	H1	SYBR Green I	 	0.00	0.00	None			86
+255;0;0;0	H1	Negative	TOX	-	-	-	Negative	Unchecked	Negative control	-	-	-	-	H1	SYBR Green I	 	0.01	0.04	None			85
+255;255;0;0	F2	S6	TOX	-	-	-	-	Checked	Standard	-	-	-	-	F1	SYBR Green I	 	-	-				62
+255;255;0;0	F1	S6	TOX	-	-	-	-	Checked	Standard	-	-	-	-	F1	SYBR Green I	 	-	-				61
+255;255;0;0	E2	S5	TOX	-	-	-	-	Checked	Standard	-	-	-	-	E1	SYBR Green I	 	-	-				50
+255;255;0;0	E1	S5	TOX	-	-	-	-	Checked	Standard	-	-	-	-	E1	SYBR Green I	 	-	-				49
+255;255;0;0	D2	S4	TOX	-	-	-	-	Checked	Standard	-	-	-	-	D1	SYBR Green I	 	-	-				38
+255;255;0;0	D1	S4	TOX	-	-	-	-	Checked	Standard	-	-	-	-	D1	SYBR Green I	 	-	-				37
+255;255;0;0	C2	S3	TOX	-	-	-	-	Checked	Standard	-	-	-	-	C1	SYBR Green I	 	-	-				26
+255;255;0;0	C1	S3	TOX	-	-	-	-	Checked	Standard	-	-	-	-	C1	SYBR Green I	 	-	-				25
+255;255;0;0	B2	S2	TOX	-	-	-	-	Checked	Standard	-	-	-	-	B1	SYBR Green I	 	-	-				14
+255;255;0;0	B1	S2	TOX	-	-	-	-	Checked	Standard	-	-	-	-	B1	SYBR Green I	 	-	-				13
+255;0;0;255	A4	08-005	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	A3	SYBR Green I	 	0.00	0.00	None			4
+255;0;0;255	A3	08-005	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	A3	SYBR Green I	 	0.01	0.05	None			3
+255;255;0;0	A2	S1	TOX	-	-	-	-	Checked	Standard	-	-	-	-	A1	SYBR Green I	 	-	-				2
+255;255;0;0	A1	S1	TOX	-	-	-	-	Checked	Standard	-	-	-	-	A1	SYBR Green I	 	-	-				1
