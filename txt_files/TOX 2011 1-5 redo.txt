@@ -1,97 +1,97 @@
 ﻿Color	Position	Sample Name	Gene Name	Cq	Cq Error	Concentration	Call	Excluded	Sample Type	Standard	Cq Mean	Concentration Mean	Concentration Error	Replicate Group	Dye	Edited Call	Slope	EPF	Failure	Notes	Sample Prep Notes	Number
-255;0;0;255	A12	11-093	TELO	24.79	0.17	-	Positive	Unchecked	Unknown	-	24.67	-	-	A11	SYBR Green I	 	0.51	2.63	None			12
-255;0;0;255	A11	11-093	TELO	24.55	0.17	-	Positive	Unchecked	Unknown	-	24.67	-	-	A11	SYBR Green I	 	0.51	2.63	None			11
-255;0;0;255	G8	11-134	TELO	28.61	0.15	-	Positive	Unchecked	Unknown	-	28.51	-	-	G7	SYBR Green I	 	0.78	2.56	None			80
-255;0;0;255	G7	11-134	TELO	28.40	0.15	-	Positive	Unchecked	Unknown	-	28.51	-	-	G7	SYBR Green I	 	0.74	2.32	None			79
-255;0;0;255	D8	11-153	TELO	28.04	0.15	-	Positive	Unchecked	Unknown	-	27.94	-	-	D7	SYBR Green I	 	0.73	2.32	None			44
-255;0;0;255	D7	11-153	TELO	27.83	0.15	-	Positive	Unchecked	Unknown	-	27.94	-	-	D7	SYBR Green I	 	0.73	2.37	None			43
-255;0;0;255	C10	11-181	TELO	30.76	0.13	-	Positive	Unchecked	Unknown	-	30.67	-	-	C9	SYBR Green I	 	0.78	1.75	None			34
-255;0;0;255	C9	11-181	TELO	30.57	0.13	-	Positive	Unchecked	Unknown	-	30.67	-	-	C9	SYBR Green I	 	0.77	1.81	None			33
-255;0;0;255	E10	11-152	TELO	28.25	0.12	-	Positive	Unchecked	Unknown	-	28.34	-	-	E9	SYBR Green I	 	0.77	2.34	None			58
-255;0;0;255	E9	11-152	TELO	28.42	0.12	-	Positive	Unchecked	Unknown	-	28.34	-	-	E9	SYBR Green I	 	0.74	2.28	None			57
-255;0;0;255	A6	11-038	TELO	27.20	0.12	-	Positive	Unchecked	Unknown	-	27.12	-	-	A5	SYBR Green I	 	0.71	2.47	None			6
-255;0;0;255	A5	11-038	TELO	27.03	0.12	-	Positive	Unchecked	Unknown	-	27.12	-	-	A5	SYBR Green I	 	0.76	2.57	None			5
-255;0;0;255	H12	11-112	TELO	25.62	0.11	-	Positive	Unchecked	Unknown	-	25.54	-	-	H11	SYBR Green I	 	0.55	2.63	None			96
-255;0;0;255	H11	11-112	TELO	25.46	0.11	-	Positive	Unchecked	Unknown	-	25.54	-	-	H11	SYBR Green I	 	0.57	2.71	None			95
-255;0;0;255	E12	11-091	TELO	27.98	0.11	-	Positive	Unchecked	Unknown	-	28.06	-	-	E11	SYBR Green I	 	0.77	2.40	None			60
-255;0;0;255	E11	11-091	TELO	28.14	0.11	-	Positive	Unchecked	Unknown	-	28.06	-	-	E11	SYBR Green I	 	0.70	2.26	None			59
-255;0;0;255	G12	11-100	TELO	27.70	0.11	-	Positive	Unchecked	Unknown	-	27.63	-	-	G11	SYBR Green I	 	0.78	2.47	None			84
-255;0;0;255	G11	11-100	TELO	27.55	0.11	-	Positive	Unchecked	Unknown	-	27.63	-	-	G11	SYBR Green I	 	0.73	2.45	None			83
-255;0;0;255	B4	11-013	TELO	27.63	0.11	-	Positive	Unchecked	Unknown	-	27.56	-	-	B3	SYBR Green I	 	0.72	2.38	None			16
-255;0;0;255	B3	11-013	TELO	27.48	0.11	-	Positive	Unchecked	Unknown	-	27.56	-	-	B3	SYBR Green I	 	0.70	2.37	None			15
-255;0;0;255	H4	11-030	TELO	26.33	0.10	-	Positive	Unchecked	Unknown	-	26.40	-	-	H3	SYBR Green I	 	0.71	2.64	None			88
-255;0;0;255	H3	11-030	TELO	26.47	0.10	-	Positive	Unchecked	Unknown	-	26.40	-	-	H3	SYBR Green I	 	0.68	2.58	None			87
-255;0;0;255	G4	11-014	TELO	27.30	0.10	-	Positive	Unchecked	Unknown	-	27.23	-	-	G3	SYBR Green I	 	0.73	2.47	None			76
-255;0;0;255	G3	11-014	TELO	27.16	0.10	-	Positive	Unchecked	Unknown	-	27.23	-	-	G3	SYBR Green I	 	0.65	2.38	None			75
-255;0;0;255	D6	11-137	TELO	28.33	0.10	-	Positive	Unchecked	Unknown	-	28.26	-	-	D5	SYBR Green I	 	0.77	2.35	None			42
-255;0;0;255	D5	11-137	TELO	28.19	0.10	-	Positive	Unchecked	Unknown	-	28.26	-	-	D5	SYBR Green I	 	0.76	2.34	None			41
-255;0;0;255	E8	11-084	TELO	28.69	0.09	-	Positive	Unchecked	Unknown	-	28.63	-	-	E7	SYBR Green I	 	0.67	2.37	None			56
-255;0;0;255	E7	11-084	TELO	28.56	0.09	-	Positive	Unchecked	Unknown	-	28.63	-	-	E7	SYBR Green I	 	0.78	2.43	None			55
-255;0;0;255	B8	11-140	TELO	29.53	0.09	-	Positive	Unchecked	Unknown	-	29.47	-	-	B7	SYBR Green I	 	0.76	2.28	None			20
-255;0;0;255	B7	11-140	TELO	29.40	0.09	-	Positive	Unchecked	Unknown	-	29.47	-	-	B7	SYBR Green I	 	0.77	2.35	None			19
-255;0;0;255	B10	11-163	TELO	28.23	0.09	-	Positive	Unchecked	Unknown	-	28.17	-	-	B9	SYBR Green I	 	0.70	2.25	None			22
-255;0;0;255	B9	11-163	TELO	28.10	0.09	-	Positive	Unchecked	Unknown	-	28.17	-	-	B9	SYBR Green I	 	0.74	2.34	None			21
-255;0;0;255	F6	11-042	TELO	28.18	0.08	-	Positive	Unchecked	Unknown	-	28.12	-	-	F5	SYBR Green I	 	0.76	2.34	None			66
-255;0;0;255	F5	11-042	TELO	28.06	0.08	-	Positive	Unchecked	Unknown	-	28.12	-	-	F5	SYBR Green I	 	0.75	2.33	None			65
-255;0;0;255	B12	11-094	TELO	28.90	0.08	-	Positive	Unchecked	Unknown	-	28.96	-	-	B11	SYBR Green I	 	0.79	2.53	None			24
-255;0;0;255	B11	11-094	TELO	29.02	0.08	-	Positive	Unchecked	Unknown	-	28.96	-	-	B11	SYBR Green I	 	0.75	2.44	None			23
-255;0;0;255	H8	11-143	TELO	28.59	0.08	-	Positive	Unchecked	Unknown	-	28.65	-	-	H7	SYBR Green I	 	0.81	2.67	None			92
-255;0;0;255	H7	11-143	TELO	28.70	0.08	-	Positive	Unchecked	Unknown	-	28.65	-	-	H7	SYBR Green I	 	0.72	2.44	None			91
-255;0;0;255	E6	11-035	TELO	27.41	0.08	-	Positive	Unchecked	Unknown	-	27.47	-	-	E5	SYBR Green I	 	0.75	2.48	None			54
-255;0;0;255	E5	11-035	TELO	27.52	0.08	-	Positive	Unchecked	Unknown	-	27.47	-	-	E5	SYBR Green I	 	0.74	2.46	None			53
-255;0;0;255	C8	11-142	TELO	27.45	0.08	-	Positive	Unchecked	Unknown	-	27.40	-	-	C7	SYBR Green I	 	0.73	2.43	None			32
-255;0;0;255	C7	11-142	TELO	27.34	0.08	-	Positive	Unchecked	Unknown	-	27.40	-	-	C7	SYBR Green I	 	0.73	2.45	None			31
-255;0;0;255	F4	11-012	TELO	26.83	0.06	-	Positive	Unchecked	Unknown	-	26.79	-	-	F3	SYBR Green I	 	0.72	2.54	None			64
-255;0;0;255	F3	11-012	TELO	26.74	0.06	-	Positive	Unchecked	Unknown	-	26.79	-	-	F3	SYBR Green I	 	0.71	2.56	None			63
-255;0;0;255	D12	11-103	TELO	28.22	0.06	-	Positive	Unchecked	Unknown	-	28.27	-	-	D11	SYBR Green I	 	0.79	2.38	None			48
-255;0;0;255	D11	11-103	TELO	28.31	0.06	-	Positive	Unchecked	Unknown	-	28.27	-	-	D11	SYBR Green I	 	0.75	2.31	None			47
-255;0;0;255	G6	11-043	TELO	26.77	0.06	-	Positive	Unchecked	Unknown	-	26.73	-	-	G5	SYBR Green I	 	0.76	2.64	None			78
-255;0;0;255	G5	11-043	TELO	26.69	0.06	-	Positive	Unchecked	Unknown	-	26.73	-	-	G5	SYBR Green I	 	0.75	2.62	None			77
-255;0;0;255	F10	11-161	TELO	28.87	0.06	-	Positive	Unchecked	Unknown	-	28.91	-	-	F9	SYBR Green I	 	0.75	2.49	None			70
-255;0;0;255	F9	11-161	TELO	28.95	0.06	-	Positive	Unchecked	Unknown	-	28.91	-	-	F9	SYBR Green I	 	0.76	2.45	None			69
-255;0;0;255	D4	11-025	TELO	26.95	0.04	-	Positive	Unchecked	Unknown	-	26.98	-	-	D3	SYBR Green I	 	0.70	2.51	None			40
-255;0;0;255	D3	11-025	TELO	27.00	0.04	-	Positive	Unchecked	Unknown	-	26.98	-	-	D3	SYBR Green I	 	0.73	2.54	None			39
-255;0;255;0	G2	GB	TELO	26.35	0.04	-	Positive	Unchecked	Positive control	-	26.33	-	-	G1	SYBR Green I	 	0.75	2.68	None			74
-255;0;255;0	G1	GB	TELO	26.30	0.04	-	Positive	Unchecked	Positive control	-	26.33	-	-	G1	SYBR Green I	 	0.84	2.81	None			73
-255;0;0;255	A4	11-002	TELO	25.74	0.03	-	Positive	Unchecked	Unknown	-	25.72	-	-	A3	SYBR Green I	 	0.73	2.76	None			4
-255;0;0;255	A3	11-002	TELO	25.70	0.03	-	Positive	Unchecked	Unknown	-	25.72	-	-	A3	SYBR Green I	 	0.54	2.66	None			3
-255;0;0;255	E4	11-004	TELO	26.45	0.02	-	Positive	Unchecked	Unknown	-	26.47	-	-	E3	SYBR Green I	 	0.66	2.53	None			52
-255;0;0;255	E3	11-004	TELO	26.48	0.02	-	Positive	Unchecked	Unknown	-	26.47	-	-	E3	SYBR Green I	 	0.70	2.59	None			51
-255;0;0;255	C12	11-097	TELO	28.54	0.02	-	Positive	Unchecked	Unknown	-	28.56	-	-	C11	SYBR Green I	 	0.78	2.35	None			36
-255;0;0;255	C11	11-097	TELO	28.57	0.02	-	Positive	Unchecked	Unknown	-	28.56	-	-	C11	SYBR Green I	 	0.75	2.58	None			35
-255;0;0;255	F8	11-086	TELO	27.94	0.02	-	Positive	Unchecked	Unknown	-	27.96	-	-	F7	SYBR Green I	 	0.74	2.36	None			68
-255;0;0;255	F7	11-086	TELO	27.97	0.02	-	Positive	Unchecked	Unknown	-	27.96	-	-	F7	SYBR Green I	 	0.75	2.35	None			67
-255;0;0;255	C4	11-022	TELO	23.55	0.02	-	Positive	Unchecked	Unknown	-	23.57	-	-	C3	SYBR Green I	 	0.56	2.87	None			28
-255;0;0;255	C3	11-022	TELO	23.58	0.02	-	Positive	Unchecked	Unknown	-	23.57	-	-	C3	SYBR Green I	 	0.56	2.86	None			27
-255;0;0;255	D10	11-001	TELO	26.02	0.01	-	Positive	Unchecked	Unknown	-	26.03	-	-	D9	SYBR Green I	 	0.56	2.45	None			46
-255;0;0;255	D9	11-001	TELO	26.04	0.01	-	Positive	Unchecked	Unknown	-	26.03	-	-	D9	SYBR Green I	 	0.60	2.51	None			45
-255;0;0;255	B6	11-039	TELO	27.94	0.01	-	Positive	Unchecked	Unknown	-	27.93	-	-	B5	SYBR Green I	 	0.75	2.37	None			18
-255;0;0;255	B5	11-039	TELO	27.92	0.01	-	Positive	Unchecked	Unknown	-	27.93	-	-	B5	SYBR Green I	 	0.76	2.37	None			17
-255;0;0;255	C6	11-040	TELO	27.71	0.01	-	Positive	Unchecked	Unknown	-	27.72	-	-	C5	SYBR Green I	 	0.74	2.41	None			30
-255;0;0;255	C5	11-040	TELO	27.73	0.01	-	Positive	Unchecked	Unknown	-	27.72	-	-	C5	SYBR Green I	 	0.72	2.37	None			29
-255;0;0;255	A8	11-138	TELO	27.93	0.01	-	Positive	Unchecked	Unknown	-	27.94	-	-	A7	SYBR Green I	 	0.71	2.34	None			8
-255;0;0;255	A7	11-138	TELO	27.95	0.01	-	Positive	Unchecked	Unknown	-	27.94	-	-	A7	SYBR Green I	 	0.71	2.31	None			7
-255;0;0;255	G10	11-172	TELO	25.45	0.01	-	Positive	Unchecked	Unknown	-	25.46	-	-	G9	SYBR Green I	 	0.47	2.47	None			82
-255;0;0;255	G9	11-172	TELO	25.46	0.01	-	Positive	Unchecked	Unknown	-	25.46	-	-	G9	SYBR Green I	 	0.47	2.47	None			81
-255;0;0;255	H6	11-083	TELO	27.46	0.01	-	Positive	Unchecked	Unknown	-	27.47	-	-	H5	SYBR Green I	 	0.77	2.50	None			90
-255;0;0;255	H5	11-083	TELO	27.47	0.01	-	Positive	Unchecked	Unknown	-	27.47	-	-	H5	SYBR Green I	 	0.74	2.49	None			89
-255;0;0;255	H10	11-089	TELO	25.43	0.00	-	Positive	Unchecked	Unknown	-	25.43	-	-	H9	SYBR Green I	 	0.58	2.71	None			94
-255;0;0;255	H9	11-089	TELO	25.43	0.00	-	Positive	Unchecked	Unknown	-	25.43	-	-	H9	SYBR Green I	 	0.59	2.75	None			93
-255;0;0;0	H2	Negative	TELO	-	-	-	Negative	Unchecked	Negative control	-	-	-	-	H1	SYBR Green I	 	0.00	0.01	None			86
-255;0;0;0	H1	Negative	TELO	-	-	-	Negative	Unchecked	Negative control	-	-	-	-	H1	SYBR Green I	 	0.01	0.06	None			85
-255;0;0;255	F12	11-092	TELO	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	F11	SYBR Green I	 	0.01	0.06	None			72
-255;0;0;255	F11	11-092	TELO	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	F11	SYBR Green I	 	0.00	0.02	None			71
-255;255;0;0	F2	S6	TELO	-	-	-	-	Checked	Standard	-	-	-	-	F1	SYBR Green I	 	-	-				62
-255;255;0;0	F1	S6	TELO	-	-	-	-	Checked	Standard	-	-	-	-	F1	SYBR Green I	 	-	-				61
-255;255;0;0	E2	S5	TELO	-	-	-	-	Checked	Standard	-	-	-	-	E1	SYBR Green I	 	-	-				50
-255;255;0;0	E1	S5	TELO	-	-	-	-	Checked	Standard	-	-	-	-	E1	SYBR Green I	 	-	-				49
-255;255;0;0	D2	S4	TELO	-	-	-	-	Checked	Standard	-	-	-	-	D1	SYBR Green I	 	-	-				38
-255;255;0;0	D1	S4	TELO	-	-	-	-	Checked	Standard	-	-	-	-	D1	SYBR Green I	 	-	-				37
-255;255;0;0	C2	S3	TELO	-	-	-	-	Checked	Standard	-	-	-	-	C1	SYBR Green I	 	-	-				26
-255;255;0;0	C1	S3	TELO	-	-	-	-	Checked	Standard	-	-	-	-	C1	SYBR Green I	 	-	-				25
-255;255;0;0	B2	S2	TELO	-	-	-	-	Checked	Standard	-	-	-	-	B1	SYBR Green I	 	-	-				14
-255;255;0;0	B1	S2	TELO	-	-	-	-	Checked	Standard	-	-	-	-	B1	SYBR Green I	 	-	-				13
-255;0;0;255	A10	11-162	TELO	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	A9	SYBR Green I	 	0.01	0.05	None			10
-255;0;0;255	A9	11-162	TELO	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	A9	SYBR Green I	 	0.01	0.07	None			9
-255;255;0;0	A2	S1	TELO	-	-	-	-	Checked	Standard	-	-	-	-	A1	SYBR Green I	 	-	-				2
-255;255;0;0	A1	S1	TELO	-	-	-	-	Checked	Standard	-	-	-	-	A1	SYBR Green I	 	-	-				1
+255;0;0;255	D9	11-001	TOX	26.04	0.01	-	Positive	Unchecked	Unknown	-	26.03	-	-	D9	SYBR Green I	 	0.60	2.51	None			45
+255;0;0;255	D10	11-001	TOX	26.02	0.01	-	Positive	Unchecked	Unknown	-	26.03	-	-	D9	SYBR Green I	 	0.56	2.45	None			46
+255;0;0;255	A3	11-002	TOX	25.70	0.03	-	Positive	Unchecked	Unknown	-	25.72	-	-	A3	SYBR Green I	 	0.54	2.66	None			3
+255;0;0;255	A4	11-002	TOX	25.74	0.03	-	Positive	Unchecked	Unknown	-	25.72	-	-	A3	SYBR Green I	 	0.73	2.76	None			4
+255;0;0;255	E3	11-004	TOX	26.48	0.02	-	Positive	Unchecked	Unknown	-	26.47	-	-	E3	SYBR Green I	 	0.70	2.59	None			51
+255;0;0;255	E4	11-004	TOX	26.45	0.02	-	Positive	Unchecked	Unknown	-	26.47	-	-	E3	SYBR Green I	 	0.66	2.53	None			52
+255;0;0;255	F3	11-012	TOX	26.74	0.06	-	Positive	Unchecked	Unknown	-	26.79	-	-	F3	SYBR Green I	 	0.71	2.56	None			63
+255;0;0;255	F4	11-012	TOX	26.83	0.06	-	Positive	Unchecked	Unknown	-	26.79	-	-	F3	SYBR Green I	 	0.72	2.54	None			64
+255;0;0;255	B3	11-013	TOX	27.48	0.11	-	Positive	Unchecked	Unknown	-	27.56	-	-	B3	SYBR Green I	 	0.70	2.37	None			15
+255;0;0;255	B4	11-013	TOX	27.63	0.11	-	Positive	Unchecked	Unknown	-	27.56	-	-	B3	SYBR Green I	 	0.72	2.38	None			16
+255;0;0;255	G3	11-014	TOX	27.16	0.10	-	Positive	Unchecked	Unknown	-	27.23	-	-	G3	SYBR Green I	 	0.65	2.38	None			75
+255;0;0;255	G4	11-014	TOX	27.30	0.10	-	Positive	Unchecked	Unknown	-	27.23	-	-	G3	SYBR Green I	 	0.73	2.47	None			76
+255;0;0;255	C3	11-022	TOX	23.58	0.02	-	Positive	Unchecked	Unknown	-	23.57	-	-	C3	SYBR Green I	 	0.56	2.86	None			27
+255;0;0;255	C4	11-022	TOX	23.55	0.02	-	Positive	Unchecked	Unknown	-	23.57	-	-	C3	SYBR Green I	 	0.56	2.87	None			28
+255;0;0;255	D3	11-025	TOX	27.00	0.04	-	Positive	Unchecked	Unknown	-	26.98	-	-	D3	SYBR Green I	 	0.73	2.54	None			39
+255;0;0;255	D4	11-025	TOX	26.95	0.04	-	Positive	Unchecked	Unknown	-	26.98	-	-	D3	SYBR Green I	 	0.70	2.51	None			40
+255;0;0;255	H3	11-030	TOX	26.47	0.10	-	Positive	Unchecked	Unknown	-	26.40	-	-	H3	SYBR Green I	 	0.68	2.58	None			87
+255;0;0;255	H4	11-030	TOX	26.33	0.10	-	Positive	Unchecked	Unknown	-	26.40	-	-	H3	SYBR Green I	 	0.71	2.64	None			88
+255;0;0;255	E5	11-035	TOX	27.52	0.08	-	Positive	Unchecked	Unknown	-	27.47	-	-	E5	SYBR Green I	 	0.74	2.46	None			53
+255;0;0;255	E6	11-035	TOX	27.41	0.08	-	Positive	Unchecked	Unknown	-	27.47	-	-	E5	SYBR Green I	 	0.75	2.48	None			54
+255;0;0;255	A5	11-038	TOX	27.03	0.12	-	Positive	Unchecked	Unknown	-	27.12	-	-	A5	SYBR Green I	 	0.76	2.57	None			5
+255;0;0;255	A6	11-038	TOX	27.20	0.12	-	Positive	Unchecked	Unknown	-	27.12	-	-	A5	SYBR Green I	 	0.71	2.47	None			6
+255;0;0;255	B5	11-039	TOX	27.92	0.01	-	Positive	Unchecked	Unknown	-	27.93	-	-	B5	SYBR Green I	 	0.76	2.37	None			17
+255;0;0;255	B6	11-039	TOX	27.94	0.01	-	Positive	Unchecked	Unknown	-	27.93	-	-	B5	SYBR Green I	 	0.75	2.37	None			18
+255;0;0;255	C5	11-040	TOX	27.73	0.01	-	Positive	Unchecked	Unknown	-	27.72	-	-	C5	SYBR Green I	 	0.72	2.37	None			29
+255;0;0;255	C6	11-040	TOX	27.71	0.01	-	Positive	Unchecked	Unknown	-	27.72	-	-	C5	SYBR Green I	 	0.74	2.41	None			30
+255;0;0;255	F5	11-042	TOX	28.06	0.08	-	Positive	Unchecked	Unknown	-	28.12	-	-	F5	SYBR Green I	 	0.75	2.33	None			65
+255;0;0;255	F6	11-042	TOX	28.18	0.08	-	Positive	Unchecked	Unknown	-	28.12	-	-	F5	SYBR Green I	 	0.76	2.34	None			66
+255;0;0;255	G5	11-043	TOX	26.69	0.06	-	Positive	Unchecked	Unknown	-	26.73	-	-	G5	SYBR Green I	 	0.75	2.62	None			77
+255;0;0;255	G6	11-043	TOX	26.77	0.06	-	Positive	Unchecked	Unknown	-	26.73	-	-	G5	SYBR Green I	 	0.76	2.64	None			78
+255;0;0;255	H5	11-083	TOX	27.47	0.01	-	Positive	Unchecked	Unknown	-	27.47	-	-	H5	SYBR Green I	 	0.74	2.49	None			89
+255;0;0;255	H6	11-083	TOX	27.46	0.01	-	Positive	Unchecked	Unknown	-	27.47	-	-	H5	SYBR Green I	 	0.77	2.50	None			90
+255;0;0;255	E7	11-084	TOX	28.56	0.09	-	Positive	Unchecked	Unknown	-	28.63	-	-	E7	SYBR Green I	 	0.78	2.43	None			55
+255;0;0;255	E8	11-084	TOX	28.69	0.09	-	Positive	Unchecked	Unknown	-	28.63	-	-	E7	SYBR Green I	 	0.67	2.37	None			56
+255;0;0;255	F7	11-086	TOX	27.97	0.02	-	Positive	Unchecked	Unknown	-	27.96	-	-	F7	SYBR Green I	 	0.75	2.35	None			67
+255;0;0;255	F8	11-086	TOX	27.94	0.02	-	Positive	Unchecked	Unknown	-	27.96	-	-	F7	SYBR Green I	 	0.74	2.36	None			68
+255;0;0;255	H9	11-089	TOX	25.43	0.00	-	Positive	Unchecked	Unknown	-	25.43	-	-	H9	SYBR Green I	 	0.59	2.75	None			93
+255;0;0;255	H10	11-089	TOX	25.43	0.00	-	Positive	Unchecked	Unknown	-	25.43	-	-	H9	SYBR Green I	 	0.58	2.71	None			94
+255;0;0;255	E11	11-091	TOX	28.14	0.11	-	Positive	Unchecked	Unknown	-	28.06	-	-	E11	SYBR Green I	 	0.70	2.26	None			59
+255;0;0;255	E12	11-091	TOX	27.98	0.11	-	Positive	Unchecked	Unknown	-	28.06	-	-	E11	SYBR Green I	 	0.77	2.40	None			60
+255;0;0;255	F11	11-092	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	F11	SYBR Green I	 	0.00	0.02	None			71
+255;0;0;255	F12	11-092	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	F11	SYBR Green I	 	0.01	0.06	None			72
+255;0;0;255	A11	11-093	TOX	24.55	0.17	-	Positive	Unchecked	Unknown	-	24.67	-	-	A11	SYBR Green I	 	0.51	2.63	None			11
+255;0;0;255	A12	11-093	TOX	24.79	0.17	-	Positive	Unchecked	Unknown	-	24.67	-	-	A11	SYBR Green I	 	0.51	2.63	None			12
+255;0;0;255	B11	11-094	TOX	29.02	0.08	-	Positive	Unchecked	Unknown	-	28.96	-	-	B11	SYBR Green I	 	0.75	2.44	None			23
+255;0;0;255	B12	11-094	TOX	28.90	0.08	-	Positive	Unchecked	Unknown	-	28.96	-	-	B11	SYBR Green I	 	0.79	2.53	None			24
+255;0;0;255	C11	11-097	TOX	28.57	0.02	-	Positive	Unchecked	Unknown	-	28.56	-	-	C11	SYBR Green I	 	0.75	2.58	None			35
+255;0;0;255	C12	11-097	TOX	28.54	0.02	-	Positive	Unchecked	Unknown	-	28.56	-	-	C11	SYBR Green I	 	0.78	2.35	None			36
+255;0;0;255	G11	11-100	TOX	27.55	0.11	-	Positive	Unchecked	Unknown	-	27.63	-	-	G11	SYBR Green I	 	0.73	2.45	None			83
+255;0;0;255	G12	11-100	TOX	27.70	0.11	-	Positive	Unchecked	Unknown	-	27.63	-	-	G11	SYBR Green I	 	0.78	2.47	None			84
+255;0;0;255	D11	11-103	TOX	28.31	0.06	-	Positive	Unchecked	Unknown	-	28.27	-	-	D11	SYBR Green I	 	0.75	2.31	None			47
+255;0;0;255	D12	11-103	TOX	28.22	0.06	-	Positive	Unchecked	Unknown	-	28.27	-	-	D11	SYBR Green I	 	0.79	2.38	None			48
+255;0;0;255	H11	11-112	TOX	25.46	0.11	-	Positive	Unchecked	Unknown	-	25.54	-	-	H11	SYBR Green I	 	0.57	2.71	None			95
+255;0;0;255	H12	11-112	TOX	25.62	0.11	-	Positive	Unchecked	Unknown	-	25.54	-	-	H11	SYBR Green I	 	0.55	2.63	None			96
+255;0;0;255	G7	11-134	TOX	28.40	0.15	-	Positive	Unchecked	Unknown	-	28.51	-	-	G7	SYBR Green I	 	0.74	2.32	None			79
+255;0;0;255	G8	11-134	TOX	28.61	0.15	-	Positive	Unchecked	Unknown	-	28.51	-	-	G7	SYBR Green I	 	0.78	2.56	None			80
+255;0;0;255	D5	11-137	TOX	28.19	0.10	-	Positive	Unchecked	Unknown	-	28.26	-	-	D5	SYBR Green I	 	0.76	2.34	None			41
+255;0;0;255	D6	11-137	TOX	28.33	0.10	-	Positive	Unchecked	Unknown	-	28.26	-	-	D5	SYBR Green I	 	0.77	2.35	None			42
+255;0;0;255	A7	11-138	TOX	27.95	0.01	-	Positive	Unchecked	Unknown	-	27.94	-	-	A7	SYBR Green I	 	0.71	2.31	None			7
+255;0;0;255	A8	11-138	TOX	27.93	0.01	-	Positive	Unchecked	Unknown	-	27.94	-	-	A7	SYBR Green I	 	0.71	2.34	None			8
+255;0;0;255	B7	11-140	TOX	29.40	0.09	-	Positive	Unchecked	Unknown	-	29.47	-	-	B7	SYBR Green I	 	0.77	2.35	None			19
+255;0;0;255	B8	11-140	TOX	29.53	0.09	-	Positive	Unchecked	Unknown	-	29.47	-	-	B7	SYBR Green I	 	0.76	2.28	None			20
+255;0;0;255	C7	11-142	TOX	27.34	0.08	-	Positive	Unchecked	Unknown	-	27.40	-	-	C7	SYBR Green I	 	0.73	2.45	None			31
+255;0;0;255	C8	11-142	TOX	27.45	0.08	-	Positive	Unchecked	Unknown	-	27.40	-	-	C7	SYBR Green I	 	0.73	2.43	None			32
+255;0;0;255	H7	11-143	TOX	28.70	0.08	-	Positive	Unchecked	Unknown	-	28.65	-	-	H7	SYBR Green I	 	0.72	2.44	None			91
+255;0;0;255	H8	11-143	TOX	28.59	0.08	-	Positive	Unchecked	Unknown	-	28.65	-	-	H7	SYBR Green I	 	0.81	2.67	None			92
+255;0;0;255	E9	11-152	TOX	28.42	0.12	-	Positive	Unchecked	Unknown	-	28.34	-	-	E9	SYBR Green I	 	0.74	2.28	None			57
+255;0;0;255	E10	11-152	TOX	28.25	0.12	-	Positive	Unchecked	Unknown	-	28.34	-	-	E9	SYBR Green I	 	0.77	2.34	None			58
+255;0;0;255	D7	11-153	TOX	27.83	0.15	-	Positive	Unchecked	Unknown	-	27.94	-	-	D7	SYBR Green I	 	0.73	2.37	None			43
+255;0;0;255	D8	11-153	TOX	28.04	0.15	-	Positive	Unchecked	Unknown	-	27.94	-	-	D7	SYBR Green I	 	0.73	2.32	None			44
+255;0;0;255	F9	11-161	TOX	28.95	0.06	-	Positive	Unchecked	Unknown	-	28.91	-	-	F9	SYBR Green I	 	0.76	2.45	None			69
+255;0;0;255	F10	11-161	TOX	28.87	0.06	-	Positive	Unchecked	Unknown	-	28.91	-	-	F9	SYBR Green I	 	0.75	2.49	None			70
+255;0;0;255	A9	11-162	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	A9	SYBR Green I	 	0.01	0.07	None			9
+255;0;0;255	A10	11-162	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	A9	SYBR Green I	 	0.01	0.05	None			10
+255;0;0;255	B9	11-163	TOX	28.10	0.09	-	Positive	Unchecked	Unknown	-	28.17	-	-	B9	SYBR Green I	 	0.74	2.34	None			21
+255;0;0;255	B10	11-163	TOX	28.23	0.09	-	Positive	Unchecked	Unknown	-	28.17	-	-	B9	SYBR Green I	 	0.70	2.25	None			22
+255;0;0;255	G9	11-172	TOX	25.46	0.01	-	Positive	Unchecked	Unknown	-	25.46	-	-	G9	SYBR Green I	 	0.47	2.47	None			81
+255;0;0;255	G10	11-172	TOX	25.45	0.01	-	Positive	Unchecked	Unknown	-	25.46	-	-	G9	SYBR Green I	 	0.47	2.47	None			82
+255;0;0;255	C9	11-181	TOX	30.57	0.13	-	Positive	Unchecked	Unknown	-	30.67	-	-	C9	SYBR Green I	 	0.77	1.81	None			33
+255;0;0;255	C10	11-181	TOX	30.76	0.13	-	Positive	Unchecked	Unknown	-	30.67	-	-	C9	SYBR Green I	 	0.78	1.75	None			34
+255;0;255;0	G1	GB	TOX	26.30	0.04	-	Positive	Unchecked	Positive control	-	26.33	-	-	G1	SYBR Green I	 	0.84	2.81	None			73
+255;0;255;0	G2	GB	TOX	26.35	0.04	-	Positive	Unchecked	Positive control	-	26.33	-	-	G1	SYBR Green I	 	0.75	2.68	None			74
+255;0;0;0	H1	Negative	TOX	-	-	-	Negative	Unchecked	Negative control	-	-	-	-	H1	SYBR Green I	 	0.01	0.06	None			85
+255;0;0;0	H2	Negative	TOX	-	-	-	Negative	Unchecked	Negative control	-	-	-	-	H1	SYBR Green I	 	0.00	0.01	None			86
+255;255;0;0	A1	S1	TOX	-	-	-	-	Checked	Standard	-	-	-	-	A1	SYBR Green I	 	-	-				1
+255;255;0;0	A2	S1	TOX	-	-	-	-	Checked	Standard	-	-	-	-	A1	SYBR Green I	 	-	-				2
+255;255;0;0	B1	S2	TOX	-	-	-	-	Checked	Standard	-	-	-	-	B1	SYBR Green I	 	-	-				13
+255;255;0;0	B2	S2	TOX	-	-	-	-	Checked	Standard	-	-	-	-	B1	SYBR Green I	 	-	-				14
+255;255;0;0	C1	S3	TOX	-	-	-	-	Checked	Standard	-	-	-	-	C1	SYBR Green I	 	-	-				25
+255;255;0;0	C2	S3	TOX	-	-	-	-	Checked	Standard	-	-	-	-	C1	SYBR Green I	 	-	-				26
+255;255;0;0	D1	S4	TOX	-	-	-	-	Checked	Standard	-	-	-	-	D1	SYBR Green I	 	-	-				37
+255;255;0;0	D2	S4	TOX	-	-	-	-	Checked	Standard	-	-	-	-	D1	SYBR Green I	 	-	-				38
+255;255;0;0	E1	S5	TOX	-	-	-	-	Checked	Standard	-	-	-	-	E1	SYBR Green I	 	-	-				49
+255;255;0;0	E2	S5	TOX	-	-	-	-	Checked	Standard	-	-	-	-	E1	SYBR Green I	 	-	-				50
+255;255;0;0	F1	S6	TOX	-	-	-	-	Checked	Standard	-	-	-	-	F1	SYBR Green I	 	-	-				61
+255;255;0;0	F2	S6	TOX	-	-	-	-	Checked	Standard	-	-	-	-	F1	SYBR Green I	 	-	-				62

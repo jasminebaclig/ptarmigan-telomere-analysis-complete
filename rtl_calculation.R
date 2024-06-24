@@ -23,67 +23,49 @@ for(i in 1:length(txt_files)) {
 }
 
 # Cleans up data frame
-all_data <- rename(all_data, id = "Sample Name", gene = "Gene Name", sample_cq = "Cq Mean", cq_error = "Cq Error", effic = "indiv PCR eff")
-reduced_data <- filter(all_data, !is.na(as.numeric(cq_error)), cq_error <= 0.5, !grepl("Negative", id))
-avg_data <- group_by(reduced_data, run, id, gene, sample_cq, cq_error) %>% summarise_at(vars(effic), list(effic = mean))
+all_data <- rename(all_data, id = "Sample Name", gene = "Gene Name", sample_cq = "Cq Mean", cq_error = "Cq Error", sample_effic = "indiv PCR eff")
+reduced_data <- filter(all_data, !is.na(as.numeric(cq_error)), cq_error < 0.51, !grepl("Negative", id)) %>% select(-cq_error)
+avg_data <- group_by(reduced_data, run, id, gene, sample_cq) %>% summarise_at(vars(sample_effic), list(sample_effic = mean))
 non_single_data <- count(reduced_data, run, id, gene) %>% filter(n != 1) %>%
                    select(-n) %>%
                    left_join(avg_data, by = join_by(run, id, gene))
 
 
-temp <- filter(reduced_data, is.nan(effic))
+## FOR DEBUGGING PURPOSES ##
+temp <- filter(non_single_data, is.nan(sample_effic))
+good_effic_data <- filter(non_single_data, !is.nan(sample_effic))
 
 
-# #Goes through every plate
-# for(i in 1:length(plate_names)) {
-#   df <- get(plate_names[[i]])
-#   
-#   #Selects desired rows and columns
-#   df <- filter(df, !is.na(as.numeric(df$"Cq Error")), #Selects non-excluded samples, excluding...
-#                df$"Cq Error" <= 0.2, #...samples with high Cq error,...
-#                !grepl("S", df$"Sample Name"), #...standard, and...
-#                !grepl("N", df$"Sample Name")) #...negatives marked as positive
-#   df <- select(df, "Sample Name", "Cq Mean") %>%
-#         rename(id = "Sample Name", sample_cq = "Cq Mean") %>%
-#         distinct() #Removes two of triplicate data
-#   df$sample_cq = as.numeric(df$sample_cq)
-#   
-#   #Adds plate names as a column that depends on position in list
-#   df$plate_name = c(plate_names[i])
-#   
-#   #Adds plate efficiency as a column that depends on position in list
-#   df$plate_efficiency = as.numeric(c(efficiencies[i]))
-#   
-#   #Adds GB Cq as a column
-#   df$gb_cq = c(df$sample_cq[which(df$id == "GD")]) #Finds sample_cq of GB and puts as value in new column
-#   df <- filter(df, id != "GD") #Removes GD as entry in table
-#   
-#   #Saves modified data frame to original name
-#   assign(plate_names[[i]], df)
-# }
-# 
-# 
-# 
-# #Left joins corresponding TELO and TOX data
-# combine_telo_tox <- function(telo_plate, tox_plate) {
-#   df <- left_join(telo_plate, tox_plate, by = join_by(id)) %>%
-#         select(id, cq_telo = sample_cq.x, cq_tox = sample_cq.y,
-#                gb_telo = gb_cq.x, gb_tox = gb_cq.y,
-#                efficiency_telo = plate_efficiency.x, efficiency_tox = plate_efficiency.y)
-#   return(df)
-# }
-# 
-# plate_1 <- combine_telo_tox(telo_1, tox_1)
-# plate_2 <- combine_telo_tox(telo_2, tox_2)
-# plate_3 <- combine_telo_tox(telo_3, tox_3)
-# redo_1 <- combine_telo_tox(redo_1_telo, redo_1_tox)
-# redo_2 <- combine_telo_tox(redo_2_telo, redo_2_tox)
-# 
-# #Combines all plates
-# combined_data <- bind_rows(plate_1, plate_2, plate_3, redo_1, redo_2) %>%
-#                  filter(!grepl("12-109", id)) %>% #Removes all 12-109 samples (see Rotating Book #1 p. 143)
-#                  arrange(id)
-# 
+# Adds appropriate GB data to sample rows
+gb_data <- filter(good_effic_data, id == "GB") %>% select(run, gene, sample_cq, sample_effic) %>% rename(gb_cq = sample_cq, gb_effic = sample_effic)
+sample_data <- left_join(good_effic_data %>% filter(id != "GB"), gb_data, by = join_by(run, gene))
+
+
+## FOR DEBUGGING PURPOSES ##
+temp_2 <- count(sample_data, id, gene) %>% filter(n != 1)
+
+
+# Combines TOX and TELO data for each sample
+sample_id <- sample_data["id"] %>% distinct()
+tox_telo_data <- data.frame()
+temp_3 <- data.frame() ## FOR DEBUGGING PURPOSES ##
+
+for(i in 1:length(sample_id[[1]])) {
+  tox_data <- filter(sample_data, id == sample_id[[1]][i], gene == "TOX")
+  telo_data <- filter(sample_data, id == sample_id[[1]][i], gene == "TELO")
+  
+  if(dim(tox_data)[[1]] != 0 && dim(telo_data)[[1]] != 0) {
+    new_row <- data.frame(id = sample_id[[1]][i], tox_sample_cq = tox_data["sample_cq"][[1]], tox_sample_effic = tox_data["sample_effic"][[1]],
+                                               tox_gb_cq = tox_data["gb_cq"][[1]], tox_gb_effic = tox_data["gb_effic"][[1]],
+                                               telo_sample_cq = telo_data["sample_cq"][[1]], telo_sample_effic = telo_data["sample_effic"][[1]],
+                                               telo_gb_cq = telo_data["gb_cq"][[1]], telo_gb_effic = telo_data["gb_effic"][[1]])
+    tox_telo_data <- rbind(tox_telo_data, new_row)
+  } else { ## FOR DEBUGGING PURPOSES ##
+    temp_3 <- rbind(temp_3, sample_id[[1]][i])
+  }
+}
+
+
 # #Calculates relative telomere length
 # calculate_rtl <- function(efficiency_telo, gb_telo, cq_telo, efficiency_tox, gb_tox, cq_tox) {
 #   telo_data <- efficiency_telo ^ (gb_telo - cq_telo)
