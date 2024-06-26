@@ -1,6 +1,6 @@
 ﻿Color	Position	Sample Name	Gene Name	Cq	Cq Error	Concentration	Call	Excluded	Sample Type	Standard	Cq Mean	Concentration Mean	Concentration Error	Replicate Group	Dye	Edited Call	Slope	EPF	Failure	Notes	Sample Prep Notes	Number
-255;0;0;255	G6	15-038	TOX	22.48	0.28	-	Positive	Unchecked	Unknown	-	22.68	-	-	G5	SYBR Green I	 	0.55	3.17	None			78
-255;0;0;255	G5	15-038	TOX	22.87	0.28	-	Positive	Unchecked	Unknown	-	22.68	-	-	G5	SYBR Green I	 	0.63	3.24	None			77
+255;0;0;255	G6	15-036	TOX	22.48	0.28	-	Positive	Unchecked	Unknown	-	22.68	-	-	G5	SYBR Green I	 	0.55	3.17	None			78
+255;0;0;255	G5	15-036	TOX	22.87	0.28	-	Positive	Unchecked	Unknown	-	22.68	-	-	G5	SYBR Green I	 	0.63	3.24	None			77
 255;0;0;255	G8	15-080	TOX	23.23	0.22	-	Positive	Unchecked	Unknown	-	23.08	-	-	G7	SYBR Green I	 	0.66	3.03	None			80
 255;0;0;255	G7	15-080	TOX	22.92	0.22	-	Positive	Unchecked	Unknown	-	23.08	-	-	G7	SYBR Green I	 	0.60	2.94	None			79
 255;0;0;255	G12	15-144	TOX	23.13	0.13	-	Positive	Unchecked	Unknown	-	23.22	-	-	G11	SYBR Green I	 	0.65	3.06	None			84
