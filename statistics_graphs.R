@@ -22,13 +22,16 @@ hist(filter(male_data, rtl < 5)$rtl)
 hist(filter(female_data, rtl < 10)$rtl)
 
 #Compares variances of RTL between sexes using F-test
-var.test(rtl ~ sex, data = lm_data) #F = 8.9967e-07, p < 2.2e-16 (Variances are not equal)
+var.test(rtl ~ sex, data = no_outlier_data) #F = 8.9967e-07, p < 2.2e-16 (Variances are not equal)
 
 #Performs Welch two-sample t-test
-t.test(rtl ~ sex, data = lm_data, var.equal = FALSE) #t = -1.1101, p = 0.2674 (Means are not different???)
+t.test(rtl ~ sex, data = no_outlier_data, var.equal = FALSE) #t = -1.1101, p = 0.2674 (Means are not different???)
 
 #Creates box plot of RTL values by sex each year
 ggplot(no_outlier_data, aes(x = sex, y = rtl)) + geom_boxplot()
+
+var.test(rtl ~ age, data = no_outlier_data)
+t.test(rtl ~ age, data = no_outlier_data, var.equal = FALSE) #Different
 
 
 
@@ -61,10 +64,10 @@ hist(y2017_data$rtl)
 hist(y2018_data$rtl)
 
 #Compares variances of RTL between years using Bartlett's test
-bartlett.test(rtl ~ year, lm_data) #K-squared = 15617, p < 2.2e-16 (Variances are not equal)
+bartlett.test(rtl ~ year, no_outlier_data) #K-squared = 15617, p < 2.2e-16 (Variances are not equal)
 
 #Performs Mood's median test
-median_test(rtl ~ year, data = lm_data) #chi-squared = 167.44, p < 2.2e-16 (Medians are different)
+median_test(rtl ~ year, data = no_outlier_data) #chi-squared = 167.44, p < 2.2e-16 (Medians are different)
 
 #Creates violin plot of RTL values by year
 ggplot(no_outlier_data, aes(x = year, y = rtl)) + geom_boxplot()
@@ -73,6 +76,7 @@ ggplot(no_outlier_data, aes(x = year, y = rtl)) + geom_boxplot()
 
 combined_data <- left_join(lm_data, select(combined_kpm, -year), by = join_by(id == id)) %>%
                  left_join(select(combined_amanda, -year, -WeightNE, -Wing, -Head), by = join_by(id == BirdID))
+write.csv(combined_data, "lm_data.csv")
 
 ggplot(combined_data %>% filter(id != "12-072", id != "12-036"), aes(x = BC.index, y = rtl)) + geom_point()
 summary(lm(rtl ~ BC.index, data = combined_data)) #R-squared = 0.001656, p = 0.2125
@@ -116,13 +120,21 @@ calculate_mean <- function(curr_year, df, col) {
   return(mean(as.numeric(unlist((filter(df, df$year == curr_year) %>% select(col))))))
 }
 
-mean_data <- create_mean_table(lm_data, "rtl") %>% rename(rtl = mean)
+mean_data <- create_mean_table(no_outlier_data, "rtl") %>% rename(rtl = mean)
 mean_data <- left_join(mean_data, create_mean_table(filter(combined_amanda, !is.na(Standardized.BC.index)), "Standardized.BC.index") %>%
                                   rename(std_bci = mean), by = join_by(year))
 mean_data <- left_join(mean_data, create_mean_table(filter(combined_kpm, !is.na(TotalFat)), "TotalFat") %>%
                                   rename(total_fat = mean), by = join_by(year))
 mean_data <- left_join(mean_data, create_mean_table(filter(combined_kpm, !is.na(WeightNE)), "WeightNE") %>%
                                   rename(weight = mean), by = join_by(year))
+
+mean_data <- left_join(mean_data, create_mean_table(filter(combined_amanda, !is.na(ceca.weight)), "ceca.weight") %>%
+                         rename(ceca_weight = mean), by = join_by(year))
+mean_data <- left_join(mean_data, create_mean_table(filter(combined_amanda, !is.na(ceca.Gut.length)), "ceca.Gut.length") %>%
+                         rename(ceca_gut_length = mean), by = join_by(year))
+mean_data <- left_join(mean_data, create_mean_table(filter(combined_amanda, !is.na(Shannon.Diversity.Index)), "Shannon.Diversity.Index") %>%
+                         rename(shannon = mean), by = join_by(year))
+
 mean_data <- left_join(mean_data, create_mean_table(filter(combined_amanda, !is.na(Clostridia.UCG.014.Relative.Abundance)), "Clostridia.UCG.014.Relative.Abundance") %>%
                                   rename(clostridia = mean), by = join_by(year))
 mean_data <- left_join(mean_data, create_mean_table(filter(combined_amanda, !is.na(Shuttleworthia.Relative.Abundance)), "Shuttleworthia.Relative.Abundance") %>%
@@ -134,10 +146,6 @@ mean_data <- left_join(mean_data, create_mean_table(filter(combined_amanda, !is.
 
 
 
-ceca_weight_mean <- create_mean_table(filter(combined_amanda, !is.na(ceca.weight)), "ceca.weight")
-ceca_gut_mean <- create_mean_table(filter(combined_amanda, !is.na(ceca.Gut.length)), "ceca.Gut.length")
-
-shannon_mean <- create_mean_table(filter(combined_amanda, !is.na(Shannon.Diversity.Index)), "Shannon.Diversity.Index")
 
 #Combines mean values of physiological data with relative telomere length data for graphing
 rtl_bci <- merge(rtl_mean, bci_mean, by = "year", all = TRUE)

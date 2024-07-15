@@ -6,7 +6,7 @@ library(tidyverse)
 
 
 #Adds sex of birds to relative telomere length data (Took sex data from Molly's scripts and CSVs)
-lm_data <- left_join(calculated_data %>% select(id, rtl), all_samples %>% select(value, sex), by = join_by(id == value))
+lm_data <- left_join(calculated_data %>% select(id, rtl), all_samples %>% select(value, sex, age), by = join_by(id == value))
 
 
 
