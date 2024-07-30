@@ -74,7 +74,7 @@ ggplot(no_outlier_data, aes(x = year, y = rtl)) + geom_boxplot()
 
 
 
-combined_data <- left_join(lm_data, select(combined_kpm, -year), by = join_by(id == id)) %>%
+combined_data <- left_join(no_outlier_data, select(combined_kpm, -year), by = join_by(id == id)) %>%
                  left_join(select(combined_amanda, -year, -WeightNE, -Wing, -Head), by = join_by(id == BirdID))
 write.csv(combined_data, "lm_data.csv")
 
@@ -142,41 +142,40 @@ mean_data <- left_join(mean_data, create_mean_table(filter(combined_amanda, !is.
 mean_data <- left_join(mean_data, create_mean_table(filter(combined_amanda, !is.na(Actinomyces.Relative.Abundance)), "Actinomyces.Relative.Abundance") %>%
                                   rename(actinomyces = mean), by = join_by(year))
 mean_data <- left_join(mean_data, create_mean_table(filter(combined_amanda, !is.na(Colidextribacter.Relative.Abundance)), "Colidextribacter.Relative.Abundance") %>%
-                                  rename(colidexteribacter = mean), by = join_by(year))
+                                  rename(colidextribacter = mean), by = join_by(year))
+
+
+summary(lm(rtl ~ std_bci, data = mean_data))
+summary(lm(rtl ~ total_fat, data = mean_data))
+summary(lm(rtl ~ weight, data = mean_data))
+summary(lm(rtl ~ ceca_weight, data = mean_data))
+summary(lm(rtl ~ ceca_gut_length, data = mean_data))
+summary(lm(rtl ~ shannon, data = mean_data))
+summary(lm(rtl ~ clostridia, data = mean_data))
+summary(lm(rtl ~ shuttleworthia, data = mean_data))
+summary(lm(rtl ~ actinomyces, data = mean_data))
+summary(lm(rtl ~ colidextribacter, data = mean_data))
 
 
 
 
-#Combines mean values of physiological data with relative telomere length data for graphing
-rtl_bci <- merge(rtl_mean, bci_mean, by = "year", all = TRUE)
-rtl_weight <- merge(rtl_mean, weight_mean, by = "year", all = TRUE)
-rtl_fat <- merge(rtl_mean, fat_mean, by = "year", all = TRUE)
-rtl_gut <- merge(rtl_mean, clostridia_mean, by = "year", all = TRUE) %>%
-           merge(shuttleworthia_mean, by = "year", all = TRUE) %>%
-           merge(actinomyces_mean, by = "year", all = TRUE) %>%
-           merge(colidextribacter_mean, by = "year", all = TRUE)
-rtl_ceca <- merge(rtl_mean, ceca_weight_mean, by = "year", all = TRUE) %>%
-            merge(ceca_gut_mean, by = "year", all = TRUE)
-rtl_shannon <- merge(rtl_mean, shannon_mean, by = "year", all = TRUE)
-rtl_pop <- merge(rtl_mean, pop_density, by = "year", all = TRUE) %>% filter(!is.na(mean), year != 2008)
 
 
 
-#Combines RTL and physiological data for each bird for statistical analysis
-rtl_corr <- left_join(select(lm_data, id, rtl), select(combined_amanda, BirdID, Standardized.BC.index, Clostridia.UCG.014.Relative.Abundance, Shuttleworthia.Relative.Abundance, Actinomyces.Relative.Abundance, Colidextribacter.Relative.Abundance, ceca.weight, ceca.Gut.length, Shannon.Diversity.Index), by = join_by(id == BirdID)) %>%
-            left_join(select(combined_kpm, id, WeightNE, TotalFat), by = join_by(id == id))
+
+
 
 #Calculates correlation values
-summary(lm(rtl ~ Standardized.BC.index, data = rtl_corr)) #R-squared = -0.006178, p = 0.4132
-summary(lm(rtl ~ WeightNE, data = rtl_corr)) #R-squared = 0.01096, p = 0.202
-summary(lm(rtl ~ TotalFat, data = rtl_corr)) #R-squared = 0.004121, p = 0.2684
-summary(lm(rtl ~ Clostridia.UCG.014.Relative.Abundance, data = rtl_corr)) #R-squared = 0.02013, p = 0.2015
-summary(lm(rtl ~ Shuttleworthia.Relative.Abundance, data = rtl_corr)) #R-squared = 0.09589, p = 0.0393
-summary(lm(rtl ~ Actinomyces.Relative.Abundance, data = rtl_corr)) #R-squared = 0.03583, p = 0.142
-summary(lm(rtl ~ Colidextribacter.Relative.Abundance, data = rtl_corr)) #R-squared = 0.08064, p = 0.0543
-summary(lm(rtl ~ ceca.weight, data = rtl_corr)) #R-squared = 0.1202, p = 0.007861
-summary(lm(rtl ~ ceca.Gut.length, data = rtl_corr)) #R-squared = 0.05568, p = 0.05438
-summary(lm(rtl ~ Shannon.Diversity.Index, data = rtl_corr)) #R-squared = -0.01098, p = 0.4328
+summary(lm(rtl ~ Standardized.BC.index, data = combined_data)) #R-squared = -0.006178, p = 0.4132
+summary(lm(rtl ~ WeightNE, data = combined_data)) #R-squared = 0.01096, p = 0.202
+summary(lm(rtl ~ TotalFat, data = combined_data)) #R-squared = 0.004121, p = 0.2684
+summary(lm(rtl ~ Clostridia.UCG.014.Relative.Abundance, data = combined_data)) #R-squared = 0.02013, p = 0.2015
+summary(lm(rtl ~ Shuttleworthia.Relative.Abundance, data = combined_data)) #R-squared = 0.09589, p = 0.0393
+summary(lm(rtl ~ Actinomyces.Relative.Abundance, data = combined_data)) #R-squared = 0.03583, p = 0.142
+summary(lm(rtl ~ Colidextribacter.Relative.Abundance, data = combined_data)) #R-squared = 0.08064, p = 0.0543
+summary(lm(rtl ~ ceca.weight, data = combined_data)) #R-squared = 0.1202, p = 0.007861
+summary(lm(rtl ~ ceca.Gut.length, data = combined_data)) #R-squared = 0.05568, p = 0.05438
+summary(lm(rtl ~ Shannon.Diversity.Index, data = combined_data)) #R-squared = -0.01098, p = 0.4328
 
 summary(lm(mean ~ rtl_pop$"density/km2", data = rtl_pop)) #R-squared = 0.09964, p = 0.2535
 

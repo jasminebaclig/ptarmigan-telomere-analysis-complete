@@ -52,5 +52,5 @@ all_samples <- as_tibble(all_samples) %>% drop_na()
   
 all_samples <- left_join(all_samples, age_sex, by = "value")
 
-rm(age_sex, alphanumeric, df, lm2006, lm2007, lm2008, lm2009, lm2010, lm2011, lm2012, lm2013, lm2014, lm2015, lm2016, lm2017, lm2018, lmxtra, raw_plate_data)
+rm(alphanumeric, df, lm2006, lm2007, lm2008, lm2009, lm2010, lm2011, lm2012, lm2013, lm2014, lm2015, lm2016, lm2017, lm2018, lmxtra, raw_plate_data)
 rm(df_name, letters_a_h, numbers, plates_names)

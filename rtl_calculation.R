@@ -28,12 +28,9 @@ reduced_data <- filter(all_data, !is.na(as.numeric(cq_error)), cq_error < 0.51, 
 avg_data <- group_by(reduced_data, run, id, gene, sample_cq) %>% summarise_at(vars(sample_effic), list(sample_effic = mean))
 non_single_data <- count(reduced_data, run, id, gene) %>% filter(n != 1) %>%
                    select(-n) %>%
-                   left_join(avg_data, by = join_by(run, id, gene))
-
-
-## FOR DEBUGGING PURPOSES ##
-temp <- filter(non_single_data, is.nan(sample_effic))
-good_effic_data <- filter(non_single_data, !is.nan(sample_effic))
+                   left_join(avg_data, by = join_by(run, id, gene)) %>%
+                   mutate(sample_effic = round(sample_effic, 1))
+good_effic_data <- filter(non_single_data, !is.nan(sample_effic), sample_effic <= 2.2, (gene == "TOX" & sample_effic >= 1.7) | (gene == "TELO" & sample_effic >= 1.4))
 
 
 # Adds appropriate GB data to sample rows
@@ -41,14 +38,12 @@ gb_data <- filter(good_effic_data, id == "GB") %>% select(run, gene, sample_cq, 
 sample_data <- left_join(good_effic_data %>% filter(id != "GB"), gb_data, by = join_by(run, gene))
 
 
-## FOR DEBUGGING PURPOSES ##
-temp_2 <- count(sample_data, id, gene) %>% filter(n != 1)
+duplicates <- count(sample_data, id, gene) %>% filter(n != 1)
 
 
 # Combines TOX and TELO data for each sample
 sample_id <- sample_data["id"] %>% distinct()
 tox_telo_data <- data.frame()
-temp_3 <- data.frame() ## FOR DEBUGGING PURPOSES ##
 
 for(i in 1:length(sample_id[[1]])) {
   tox_data <- filter(sample_data, id == sample_id[[1]][i], gene == "TOX")
@@ -60,10 +55,12 @@ for(i in 1:length(sample_id[[1]])) {
                                                   telo_sample_cq = as.numeric(telo_data["sample_cq"][[1]]), telo_sample_effic = as.numeric(telo_data["sample_effic"][[1]]),
                                                   telo_gb_cq = as.numeric(telo_data["gb_cq"][[1]]), telo_gb_effic = as.numeric(telo_data["gb_effic"][[1]]))
     tox_telo_data <- rbind(tox_telo_data, new_row)
-  } else { ## FOR DEBUGGING PURPOSES ##
-    temp_3 <- rbind(temp_3, sample_id[[1]][i])
   }
 }
+
+
+missing_data <- data.frame(setdiff(pull(age_sex, value), pull(tox_telo_data, id)))
+
 
 # Calculates relative telomere length
 calculate_rtl <- function(tox_sample_cq, tox_sample_effic, tox_gb_cq, tox_gb_effic, telo_sample_cq, telo_sample_effic, telo_gb_cq, telo_gb_effic) {
@@ -82,5 +79,5 @@ calculated_data <- transform(tox_telo_data, rtl = calculate_rtl(tox_sample_cq, t
                                                                 telo_sample_cq, telo_sample_effic, telo_gb_cq, telo_gb_effic))
 
 #Cleans up unwanted data in memory
-rm(all_data, avg_data, df_effic, df_txt, gb_data, good_effic_data, new_row, non_single_data, reduced_data, sample_data, sample_id, telo_data, tox_data, tox_telo_data)
+rm(age_sex, all_data, avg_data, df_effic, df_txt, gb_data, good_effic_data, new_row, non_single_data, reduced_data, sample_data, sample_id, telo_data, tox_data, tox_telo_data)
 rm(effic_files, effic_path, i, txt_files, txt_path, calculate_rtl)

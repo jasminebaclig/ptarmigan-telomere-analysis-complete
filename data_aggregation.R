@@ -76,8 +76,17 @@ pop_density <- read_csv("./lm_info_files/population_over_time.csv")
 
 
 
+combined_data <- left_join(lm_data, select(combined_kpm, -year), by = join_by(id == id)) %>%
+                 left_join(select(combined_amanda, -year, -WeightNE, -Wing, -Head), by = join_by(id == BirdID))
+combined_data <- filter(combined_data, id != "17-018")
+write.csv(combined_data, "lm_data.csv")
+write.csv(pop_density, "pop_density.csv")
+
+
+
 #Cleans up unwanted data in memory
 rm(get_year)
 rm(kpm_data_1, kpm_data_2)
 rm(amanda_data_1, amanda_data_2, amanda_data_3, amanda_data_4)
 rm(all_samples, calculated_data)
+rm(combined_amanda, combined_kpm)
