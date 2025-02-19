@@ -31,6 +31,7 @@ non_single_data <- count(reduced_data, run, id, gene) %>% filter(n != 1) %>%
                    left_join(avg_data, by = join_by(run, id, gene)) %>%
                    mutate(sample_effic = round(sample_effic, 1))
 good_effic_data <- filter(non_single_data, !is.nan(sample_effic), sample_effic <= 2.2, (gene == "TOX" & sample_effic >= 1.7) | (gene == "TELO" & sample_effic >= 1.4))
+bad_effic_data <- filter(non_single_data, is.nan(sample_effic) | sample_effic > 2.2 | (gene == "TOX" & sample_effic < 1.7) | (gene == "TELO" & sample_effic < 1.4))
 
 
 # Adds appropriate GB data to sample rows
