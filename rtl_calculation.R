@@ -22,15 +22,20 @@ for(i in 1:length(txt_files)) {
                               %>% mutate(run = str_sub(txt_files[[i]], end = -5)))
 }
 
-# Cleans up data frame
+## Cleans up data frame
 all_data <- rename(all_data, id = "Sample Name", gene = "Gene Name", sample_cq = "Cq Mean", cq_error = "Cq Error", sample_effic = "indiv PCR eff")
+# Removes empty wells, samples with bad Cq error, and negative control
 reduced_data <- filter(all_data, !is.na(as.numeric(cq_error)), cq_error < 0.51, !grepl("Negative", id)) %>% select(-cq_error)
+# Creates one entry for each unique sample with the data from the replicate runs averaged
 avg_data <- group_by(reduced_data, run, id, gene, sample_cq) %>% summarise_at(vars(sample_effic), list(sample_effic = mean))
+# Removes samples with only one data point (i.e., the other replicate reactions failed)
 non_single_data <- count(reduced_data, run, id, gene) %>% filter(n != 1) %>%
                    select(-n) %>%
                    left_join(avg_data, by = join_by(run, id, gene)) %>%
                    mutate(sample_effic = round(sample_effic, 1))
+# Selects samples with a good efficiency
 good_effic_data <- filter(non_single_data, !is.nan(sample_effic), sample_effic <= 2.2, (gene == "TOX" & sample_effic >= 1.7) | (gene == "TELO" & sample_effic >= 1.4))
+# Selects samples with a bad efficiency to track what samples to redo (Note: if a GB sample appears here, the whole plate should be repeated)
 bad_effic_data <- filter(non_single_data, is.nan(sample_effic) | sample_effic > 2.2 | (gene == "TOX" & sample_effic < 1.7) | (gene == "TELO" & sample_effic < 1.4))
 
 
@@ -39,6 +44,7 @@ gb_data <- filter(good_effic_data, id == "GB") %>% select(run, gene, sample_cq, 
 sample_data <- left_join(good_effic_data %>% filter(id != "GB"), gb_data, by = join_by(run, gene))
 
 
+# Selects samples that have more than one instances where the TOX and/or TELO assay passed. One of these instances should be excluded in the LightCycler file.
 duplicates <- count(sample_data, id, gene) %>% filter(n != 1)
 
 
