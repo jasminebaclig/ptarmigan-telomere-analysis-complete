@@ -44,7 +44,7 @@ gb_data <- filter(good_effic_data, id == "GB") %>% select(run, gene, sample_cq, 
 sample_data <- left_join(good_effic_data %>% filter(id != "GB"), gb_data, by = join_by(run, gene))
 
 
-# Selects samples that have more than one instances where the TOX and/or TELO assay passed.
+# Selects samples that have more than one instance where the TOX and/or TELO assay passed.
 # One of these instances should be excluded in the LightCycler file. Use sample_data to know which run the duplicate samples are in.
 duplicates <- count(sample_data, id, gene) %>% filter(n != 1)
 
