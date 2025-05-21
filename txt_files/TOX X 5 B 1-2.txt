@@ -5,8 +5,6 @@
 255;0;255;0	F1	GB	TOX	26.17	0.09	-	Positive	Unchecked	Positive control	-	26.14	-	-	F1	SYBR Green I	 	0.74	2.73	None			61
 255;0;0;255	A4	11-204	TOX	23.25	0.08	-	Positive	Unchecked	Unknown	-	23.31	-	-	A3	SYBR Green I	 	0.57	2.85	None			4
 255;0;0;255	A3	11-204	TOX	23.37	0.08	-	Positive	Unchecked	Unknown	-	23.31	-	-	A3	SYBR Green I	 	0.58	2.85	None			3
-255;0;0;255	H4	18-028	TOX	25.70	0.06	-	Positive	Unchecked	Unknown	-	25.75	-	-	H3	SYBR Green I	 	0.54	2.59	None			88
-255;0;0;255	H3	18-028	TOX	25.79	0.06	-	Positive	Unchecked	Unknown	-	25.75	-	-	H3	SYBR Green I	 	0.53	2.54	None			87
 255;0;0;255	G4	16-045	TOX	23.63	0.06	-	Positive	Unchecked	Unknown	-	23.59	-	-	G3	SYBR Green I	 	0.52	2.72	None			76
 255;0;0;255	G3	16-045	TOX	23.54	0.06	-	Positive	Unchecked	Unknown	-	23.59	-	-	G3	SYBR Green I	 	0.51	2.68	None			75
 255;0;0;255	B4	11-190	TOX	23.20	0.06	-	Positive	Unchecked	Unknown	-	23.24	-	-	B3	SYBR Green I	 	0.55	2.80	None			16
@@ -30,6 +28,8 @@
 255;0;0;255	H7		TOX	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A5	SYBR Green I	 	0.02	0.25	None			91
 255;0;0;255	H6		TOX	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A5	SYBR Green I	 	0.02	0.14	None			90
 255;0;0;255	H5		TOX	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A5	SYBR Green I	 	0.03	0.51	None			89
+255;0;0;255	H4	18-028	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	H3	SYBR Green I	 	-	-				88
+255;0;0;255	H3	18-028	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	H3	SYBR Green I	 	-	-				87
 255;0;0;0	H2	Negative	TOX	-	-	-	Negative	Unchecked	Negative control	-	-	-	-	H1	SYBR Green I	 	0.00	0.00	None			86
 255;0;0;0	H1	Negative	TOX	-	-	-	Negative	Unchecked	Negative control	-	-	-	-	H1	SYBR Green I	 	0.00	0.00	None			85
 255;0;0;255	G12		TOX	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	A5	SYBR Green I	 	0.01	0.21	None			84

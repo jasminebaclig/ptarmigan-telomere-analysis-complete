@@ -19,8 +19,8 @@
 255;0;0;255	H4	12-004	TELO	8.60	0.01	-	Positive	Unchecked	Unknown	-	8.61	-	-	H3	SYBR Green I	 	1.31	3.91	None			88
 255;0;0;255	A3	12-005	TELO	18.03	2.18	-	Positive	Unchecked	Unknown	-	16.49	-	-	A3	SYBR Green I	 	0.72	3.68	None			3
 255;0;0;255	A4	12-005	TELO	14.95	2.18	-	Positive	Unchecked	Unknown	-	16.49	-	-	A3	SYBR Green I	 	0.95	4.21	None			4
-255;0;0;255	B5	12-008	TELO	15.30	0.13	-	Positive	Unchecked	Unknown	-	15.40	-	-	B5	SYBR Green I	 	0.85	3.92	None			17
-255;0;0;255	B6	12-008	TELO	15.49	0.13	-	Positive	Unchecked	Unknown	-	15.40	-	-	B5	SYBR Green I	 	0.84	3.89	None			18
+255;0;0;255	B5	12-008	TELO	-	-	-	-	Checked	Unknown	-	-	-	-	B5	SYBR Green I	 	-	-				17
+255;0;0;255	B6	12-008	TELO	-	-	-	-	Checked	Unknown	-	-	-	-	B5	SYBR Green I	 	-	-				18
 255;0;0;255	B3	12-009	TELO	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	B3	SYBR Green I	 	0.01	0.02	None			15
 255;0;0;255	B4	12-009	TELO	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	B3	SYBR Green I	 	0.00	0.03	None			16
 255;0;0;255	C5	12-010	TELO	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	C5	SYBR Green I	 	0.01	0.04	None			29
@@ -39,8 +39,8 @@
 255;0;0;255	A6	12-029	TELO	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	A5	SYBR Green I	 	0.01	0.04	None			6
 255;0;0;255	C7	12-031	TELO	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	C7	SYBR Green I	 	0.01	0.03	None			31
 255;0;0;255	C8	12-031	TELO	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	C7	SYBR Green I	 	0.01	0.02	None			32
-255;0;0;255	D7	12-032	TELO	-	-	-	-	Checked	Unknown	-	-	-	-	D7	SYBR Green I	 	-	-				43
-255;0;0;255	D8	12-032	TELO	-	-	-	-	Checked	Unknown	-	-	-	-	D7	SYBR Green I	 	-	-				44
+255;0;0;255	D7	12-032	TELO	9.04	0.24	-	Positive	Unchecked	Unknown	-	9.21	-	-	D7	SYBR Green I	 	1.75	4.26	None			43
+255;0;0;255	D8	12-032	TELO	9.38	0.24	-	Positive	Unchecked	Unknown	-	9.21	-	-	D7	SYBR Green I	 	1.87	4.37	None			44
 255;0;0;255	F5	12-042	TELO	9.67	0.01	-	Positive	Unchecked	Unknown	-	9.66	-	-	F5	SYBR Green I	 	1.71	4.36	None			65
 255;0;0;255	F6	12-042	TELO	9.65	0.01	-	Positive	Unchecked	Unknown	-	9.66	-	-	F5	SYBR Green I	 	1.70	4.35	None			66
 255;0;0;255	E7	12-043	TELO	-	-	-	-	Checked	Unknown	-	-	-	-	E7	SYBR Green I	 	-	-				55
@@ -77,8 +77,8 @@
 255;0;0;255	A12	12-070	TELO	8.10	0.06	-	Positive	Unchecked	Unknown	-	8.15	-	-	A11	SYBR Green I	 	1.47	3.90	None			12
 255;0;0;255	B11	12-079	TELO	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	B11	SYBR Green I	 	0.00	-0.02	None			23
 255;0;0;255	B12	12-079	TELO	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	B11	SYBR Green I	 	0.01	-0.01	None			24
-255;0;0;255	C11	12-083	TELO	29.36	0.01	-	Positive	Unchecked	Unknown	-	29.35	-	-	C11	SYBR Green I	 	1.83	2.18	None			35
-255;0;0;255	C12	12-083	TELO	29.34	0.01	-	Positive	Unchecked	Unknown	-	29.35	-	-	C11	SYBR Green I	 	1.93	2.30	None			36
+255;0;0;255	C11	12-083	TELO	-	-	-	-	Checked	Unknown	-	-	-	-	C11	SYBR Green I	 	-	-				35
+255;0;0;255	C12	12-083	TELO	-	-	-	-	Checked	Unknown	-	-	-	-	C11	SYBR Green I	 	-	-				36
 255;0;0;255	E11	12-086	TELO	22.46	2.41	-	Positive	Unchecked	Unknown	-	20.76	-	-	E11	SYBR Green I	 	0.71	3.23	None			59
 255;0;0;255	E12	12-086	TELO	19.05	2.41	-	Positive	Unchecked	Unknown	-	20.76	-	-	E11	SYBR Green I	 	1.01	4.13	None			60
 255;0;0;255	D11	12-087	TELO	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	D11	SYBR Green I	 	0.01	-0.02	None			47
