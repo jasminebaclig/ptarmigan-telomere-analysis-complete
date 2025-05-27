@@ -9,7 +9,7 @@ Authors: Jasmine Baclig, Molly J. Hansen
 - rdml_files: folder containing RDML files from the LightCycler software.
 - txt_files: folder containing TXT files of the qPCR data from the LightCycler software.
 - data_aggregration.R: R code that combines all ptarmigan-related data.
-- linregpcr.py: Python code for running LinRegPCR on all the files included in rdml_files and their corresponding files in txt_files.
+- linregpcr.py: Python code for running LinRegPCR on all the files included in rdml_files.
 - main_script.R: R code for running all other R scripts included here.
 - make_all_samples.R: R code that creates a dataframe about the year, sex, and age of all the ptarmigan samples (written by MJH).
 - output.txt: TXT file containing the console output of linregpcr.py, which can be used to track the progress of the code.
@@ -24,6 +24,7 @@ Authors: Jasmine Baclig, Molly J. Hansen
   - Go to "File" > "Save As", and in the "Save as type" drop-down menu, select "RDML file". Save this in rdml_files.
   - In the "Analysis" tab, find the "Results Table" and click the top-leftmost cell to select all cells. Right-click anywhere in the middle, and click "Export to File". Save this TXT file in txt_files, and make sure that the name matches with the corresponding RDML file in rdml_files (or at least they are in the same order/position in their own folder after the files are sorted alphabetically by rtl_calculation.R).
 - Run linregpcr.py (Note: this can be run in RStudio). Afterward, check if there are the same number of files in indiv_effic_files as there are in rdml_files.
+  - You might run into a problem when running this code for the first time. If accompanied by the appropriate error message, this could be solved by changing all instances of "np.NaN" to "np.nan" in rdml.py that is part of the LinRegPCR package.
 - If ptarmigan data already included in this repository will be used, run main_script.R.
 - If different data will be used only for calculating relative telomere lengths, run rtl_calculation.R. Here are some important dataframes in this code:
   - bad_effic_data: indicates which samples have a bad efficiency that was calculated by linregpcr.py.
