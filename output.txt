@@ -99,8 +99,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.883555sec
-Done All: 0:00:01.569562sec
+Done Baseline: 0:00:00.871253sec
+Done All: 0:00:01.585958sec
 
 
 
@@ -205,8 +205,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.774418sec
-Done All: 0:00:01.931938sec
+Done Baseline: 0:00:00.757821sec
+Done All: 0:00:01.941125sec
 
 
 
@@ -311,8 +311,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.733564sec
-Done All: 0:00:02.464001sec
+Done Baseline: 0:00:00.749343sec
+Done All: 0:00:02.693453sec
 
 
 
@@ -417,8 +417,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.753319sec
-Done All: 0:00:02.781721sec
+Done Baseline: 0:00:00.856199sec
+Done All: 0:00:03.059829sec
 
 
 
@@ -523,8 +523,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.780034sec
-Done All: 0:00:02.119637sec
+Done Baseline: 0:00:00.782997sec
+Done All: 0:00:02.173545sec
 
 
 
@@ -629,8 +629,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.707867sec
-Done All: 0:00:01.635818sec
+Done Baseline: 0:00:00.807910sec
+Done All: 0:00:01.805858sec
 
 
 
@@ -735,8 +735,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.697539sec
-Done All: 0:00:02.602224sec
+Done Baseline: 0:00:00.845884sec
+Done All: 0:00:02.902843sec
 
 
 
@@ -841,8 +841,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.739440sec
-Done All: 0:00:01.667810sec
+Done Baseline: 0:00:00.798552sec
+Done All: 0:00:01.848393sec
 
 
 
@@ -947,8 +947,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.708897sec
-Done All: 0:00:02.455715sec
+Done Baseline: 0:00:00.835630sec
+Done All: 0:00:02.729844sec
 
 
 
@@ -1053,8 +1053,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.641934sec
-Done All: 0:00:02.157909sec
+Done Baseline: 0:00:00.865393sec
+Done All: 0:00:02.504398sec
 
 
 
@@ -1159,8 +1159,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.675768sec
-Done All: 0:00:02.334346sec
+Done Baseline: 0:00:00.724928sec
+Done All: 0:00:02.433558sec
 
 
 
@@ -1265,8 +1265,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.736326sec
-Done All: 0:00:02.050045sec
+Done Baseline: 0:00:00.746283sec
+Done All: 0:00:02.067748sec
 
 
 
@@ -1371,8 +1371,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.516290sec
-Done All: 0:00:01.173014sec
+Done Baseline: 0:00:00.532277sec
+Done All: 0:00:01.209562sec
 
 
 
@@ -1477,8 +1477,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.516210sec
-Done All: 0:00:01.454382sec
+Done Baseline: 0:00:00.523127sec
+Done All: 0:00:01.520227sec
 
 
 
@@ -1583,8 +1583,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.688257sec
-Done All: 0:00:01.657639sec
+Done Baseline: 0:00:00.706992sec
+Done All: 0:00:01.723419sec
 
 
 
@@ -1689,8 +1689,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.672554sec
-Done All: 0:00:02.188770sec
+Done Baseline: 0:00:00.709788sec
+Done All: 0:00:02.313788sec
 
 
 
@@ -1795,8 +1795,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.701119sec
-Done All: 0:00:02.169882sec
+Done Baseline: 0:00:00.771774sec
+Done All: 0:00:02.306249sec
 
 
 
@@ -1901,8 +1901,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.656251sec
-Done All: 0:00:01.578778sec
+Done Baseline: 0:00:00.687465sec
+Done All: 0:00:01.735886sec
 
 
 
@@ -2007,8 +2007,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.719347sec
-Done All: 0:00:01.693788sec
+Done Baseline: 0:00:00.825957sec
+Done All: 0:00:01.779009sec
 
 
 
@@ -2113,8 +2113,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.939474sec
-Done All: 0:00:01.784905sec
+Done Baseline: 0:00:00.766199sec
+Done All: 0:00:01.579058sec
 
 
 
@@ -2219,8 +2219,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.828144sec
-Done All: 0:00:01.646778sec
+Done Baseline: 0:00:00.756604sec
+Done All: 0:00:01.493741sec
 
 
 
@@ -2325,8 +2325,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.743076sec
-Done All: 0:00:01.592376sec
+Done Baseline: 0:00:00.734111sec
+Done All: 0:00:01.557714sec
 
 
 
@@ -2431,8 +2431,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.771115sec
-Done All: 0:00:01.513106sec
+Done Baseline: 0:00:00.782611sec
+Done All: 0:00:01.525810sec
 
 
 
@@ -2537,8 +2537,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.681416sec
-Done All: 0:00:01.401024sec
+Done Baseline: 0:00:00.713463sec
+Done All: 0:00:01.442991sec
 
 
 
@@ -2643,8 +2643,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.782208sec
-Done All: 0:00:01.771094sec
+Done Baseline: 0:00:00.812741sec
+Done All: 0:00:01.753169sec
 
 
 
@@ -2749,8 +2749,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.735127sec
-Done All: 0:00:02.465053sec
+Done Baseline: 0:00:00.751561sec
+Done All: 0:00:02.473519sec
 
 
 
@@ -2855,8 +2855,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.739689sec
-Done All: 0:00:01.325808sec
+Done Baseline: 0:00:00.795869sec
+Done All: 0:00:01.367723sec
 
 
 
@@ -2961,8 +2961,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.765643sec
-Done All: 0:00:01.468560sec
+Done Baseline: 0:00:00.814990sec
+Done All: 0:00:01.542322sec
 
 
 
@@ -3067,8 +3067,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.722553sec
-Done All: 0:00:02.270623sec
+Done Baseline: 0:00:00.754603sec
+Done All: 0:00:02.335972sec
 
 
 
@@ -3173,8 +3173,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.924314sec
-Done All: 0:00:01.957355sec
+Done Baseline: 0:00:00.981536sec
+Done All: 0:00:01.996829sec
 
 
 
@@ -3279,8 +3279,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.916251sec
-Done All: 0:00:01.778269sec
+Done Baseline: 0:00:00.922805sec
+Done All: 0:00:01.782959sec
 
 
 
@@ -3385,8 +3385,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.863058sec
-Done All: 0:00:01.718981sec
+Done Baseline: 0:00:00.875935sec
+Done All: 0:00:01.657504sec
 
 
 
@@ -3491,8 +3491,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.839733sec
-Done All: 0:00:01.572420sec
+Done Baseline: 0:00:00.860717sec
+Done All: 0:00:01.595475sec
 
 
 
@@ -3597,8 +3597,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.298147sec
-Done All: 0:00:00.562672sec
+Done Baseline: 0:00:00.296878sec
+Done All: 0:00:00.563085sec
 
 
 
@@ -3703,8 +3703,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.149643sec
-Done All: 0:00:00.250225sec
+Done Baseline: 0:00:00.140863sec
+Done All: 0:00:00.250243sec
 
 
 
@@ -3809,8 +3809,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.782387sec
-Done All: 0:00:01.770279sec
+Done Baseline: 0:00:00.782477sec
+Done All: 0:00:01.720673sec
 
 
 
@@ -3915,8 +3915,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.562505sec
-Done All: 0:00:01.250013sec
+Done Baseline: 0:00:00.579720sec
+Done All: 0:00:01.268101sec
 
 
 
@@ -4021,8 +4021,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.704259sec
-Done All: 0:00:01.955381sec
+Done Baseline: 0:00:00.671881sec
+Done All: 0:00:01.891046sec
 
 
 
@@ -4127,8 +4127,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.500075sec
-Done All: 0:00:01.297256sec
+Done Baseline: 0:00:00.485522sec
+Done All: 0:00:01.220230sec
 
 
 
@@ -4233,8 +4233,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.718899sec
-Done All: 0:00:02.345474sec
+Done Baseline: 0:00:00.735170sec
+Done All: 0:00:02.424074sec
 
 
 
@@ -4339,8 +4339,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.766172sec
-Done All: 0:00:02.209975sec
+Done Baseline: 0:00:00.797622sec
+Done All: 0:00:02.251504sec
 
 
 
@@ -4445,8 +4445,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.954509sec
-Done All: 0:00:01.706286sec
+Done Baseline: 0:00:00.984907sec
+Done All: 0:00:01.703664sec
 
 
 
@@ -4551,8 +4551,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:01.047878sec
-Done All: 0:00:01.829484sec
+Done Baseline: 0:00:00.985347sec
+Done All: 0:00:01.751534sec
 
 
 
@@ -4657,8 +4657,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.453887sec
-Done All: 0:00:01.172651sec
+Done Baseline: 0:00:00.469354sec
+Done All: 0:00:01.189625sec
 
 
 
@@ -4763,8 +4763,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.485522sec
-Done All: 0:00:01.438181sec
+Done Baseline: 0:00:00.490427sec
+Done All: 0:00:01.481293sec
 
 
 
@@ -4869,8 +4869,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.484313sec
-Done All: 0:00:01.468763sec
+Done Baseline: 0:00:00.515470sec
+Done All: 0:00:01.517001sec
 
 
 
@@ -4975,8 +4975,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.500508sec
-Done All: 0:00:01.297381sec
+Done Baseline: 0:00:00.468912sec
+Done All: 0:00:01.234657sec
 
 
 
@@ -5081,8 +5081,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.515554sec
-Done All: 0:00:01.480416sec
+Done Baseline: 0:00:00.500562sec
+Done All: 0:00:01.366411sec
 
 
 
@@ -5187,8 +5187,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.545797sec
-Done All: 0:00:01.480208sec
+Done Baseline: 0:00:00.485868sec
+Done All: 0:00:01.361653sec
 
 
 
@@ -5293,8 +5293,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.466624sec
-Done All: 0:00:00.970922sec
+Done Baseline: 0:00:00.438249sec
+Done All: 0:00:00.940333sec
 
 
 
@@ -5399,8 +5399,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.518886sec
-Done All: 0:00:01.406695sec
+Done Baseline: 0:00:00.516775sec
+Done All: 0:00:01.350163sec
 
 
 
@@ -5505,8 +5505,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.433614sec
-Done All: 0:00:01.288734sec
+Done Baseline: 0:00:00.423338sec
+Done All: 0:00:01.269844sec
 
 
 
@@ -5611,8 +5611,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.491226sec
-Done All: 0:00:01.401642sec
+Done Baseline: 0:00:00.501622sec
+Done All: 0:00:01.424954sec
 
 
 
@@ -5717,8 +5717,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.486177sec
-Done All: 0:00:01.387177sec
+Done Baseline: 0:00:00.501398sec
+Done All: 0:00:01.408683sec
 
 
 
@@ -5823,8 +5823,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.294762sec
-Done All: 0:00:00.840479sec
+Done Baseline: 0:00:00.281251sec
+Done All: 0:00:00.828813sec
 
 
 
@@ -5929,8 +5929,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.229017sec
-Done All: 0:00:00.308051sec
+Done Baseline: 0:00:00.250946sec
+Done All: 0:00:00.329363sec
 
 
 
@@ -6035,8 +6035,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.501713sec
-Done All: 0:00:01.685625sec
+Done Baseline: 0:00:00.501458sec
+Done All: 0:00:01.675576sec
 
 
 
@@ -6141,8 +6141,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.514792sec
-Done All: 0:00:01.763739sec
+Done Baseline: 0:00:00.531656sec
+Done All: 0:00:01.721170sec
 
 
 
@@ -6247,8 +6247,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.499995sec
-Done All: 0:00:01.504854sec
+Done Baseline: 0:00:00.500715sec
+Done All: 0:00:01.533630sec
 
 
 
@@ -6353,8 +6353,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.466937sec
-Done All: 0:00:01.093477sec
+Done Baseline: 0:00:00.500774sec
+Done All: 0:00:01.142166sec
 
 
 
@@ -6459,8 +6459,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.465077sec
-Done All: 0:00:00.996164sec
+Done Baseline: 0:00:00.485106sec
+Done All: 0:00:01.032555sec
 
 
 
@@ -6565,8 +6565,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.515016sec
-Done All: 0:00:01.612729sec
+Done Baseline: 0:00:00.501551sec
+Done All: 0:00:01.518168sec
 
 
 
@@ -6671,8 +6671,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.471342sec
-Done All: 0:00:00.919926sec
+Done Baseline: 0:00:00.502073sec
+Done All: 0:00:00.984091sec
 
 
 
@@ -6777,8 +6777,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.537969sec
-Done All: 0:00:01.055142sec
+Done Baseline: 0:00:00.652522sec
+Done All: 0:00:01.258484sec
 
 
 
@@ -6883,8 +6883,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.498675sec
-Done All: 0:00:00.965279sec
+Done Baseline: 0:00:00.506525sec
+Done All: 0:00:01.023688sec
 
 
 
@@ -6989,8 +6989,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.500147sec
-Done All: 0:00:01.663496sec
+Done Baseline: 0:00:00.527673sec
+Done All: 0:00:01.690923sec
 
 
 
@@ -7095,8 +7095,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.517811sec
-Done All: 0:00:01.489847sec
+Done Baseline: 0:00:00.569913sec
+Done All: 0:00:01.638136sec
 
 
 
@@ -7201,8 +7201,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.497700sec
-Done All: 0:00:00.881415sec
+Done Baseline: 0:00:00.525116sec
+Done All: 0:00:00.931053sec
 
 
 
@@ -7307,8 +7307,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.517433sec
-Done All: 0:00:01.500347sec
+Done Baseline: 0:00:00.480398sec
+Done All: 0:00:01.443815sec
 
 
 
@@ -7413,8 +7413,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.464693sec
-Done All: 0:00:01.653026sec
+Done Baseline: 0:00:00.456842sec
+Done All: 0:00:01.601255sec
 
 
 
@@ -7519,8 +7519,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.114670sec
-Done All: 0:00:00.314611sec
+Done Baseline: 0:00:00.132989sec
+Done All: 0:00:00.315880sec
 
 
 
@@ -7625,8 +7625,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.352349sec
-Done All: 0:00:01.067563sec
+Done Baseline: 0:00:00.371987sec
+Done All: 0:00:01.067412sec
 
 
 
@@ -7731,8 +7731,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.573976sec
-Done All: 0:00:01.205770sec
+Done Baseline: 0:00:00.530526sec
+Done All: 0:00:01.158526sec
 
 
 
@@ -7837,8 +7837,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.586953sec
-Done All: 0:00:01.110339sec
+Done Baseline: 0:00:00.598982sec
+Done All: 0:00:01.166238sec
 
 
 
@@ -7943,8 +7943,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.500739sec
-Done All: 0:00:01.516346sec
+Done Baseline: 0:00:00.550211sec
+Done All: 0:00:01.648631sec
 
 
 
@@ -8049,8 +8049,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.530017sec
-Done All: 0:00:01.658419sec
+Done Baseline: 0:00:00.536087sec
+Done All: 0:00:01.728395sec
 
 
 
@@ -8155,8 +8155,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.495332sec
-Done All: 0:00:01.412310sec
+Done Baseline: 0:00:00.492003sec
+Done All: 0:00:01.436617sec
 
 
 
@@ -8261,8 +8261,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.328201sec
-Done All: 0:00:00.687763sec
+Done Baseline: 0:00:00.334169sec
+Done All: 0:00:00.764562sec
 
 
 
@@ -8367,8 +8367,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.185903sec
-Done All: 0:00:00.498875sec
+Done Baseline: 0:00:00.208687sec
+Done All: 0:00:00.536231sec
 
 
 
@@ -8473,8 +8473,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.312500sec
-Done All: 0:00:00.659426sec
+Done Baseline: 0:00:00.361986sec
+Done All: 0:00:00.743711sec
 
 
 
@@ -8579,8 +8579,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.407040sec
-Done All: 0:00:00.908060sec
+Done Baseline: 0:00:00.479057sec
+Done All: 0:00:01.079144sec
 
 
 
@@ -8685,8 +8685,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.309803sec
-Done All: 0:00:00.798419sec
+Done Baseline: 0:00:00.331130sec
+Done All: 0:00:00.863119sec
 
 
 
@@ -8791,8 +8791,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.442451sec
-Done All: 0:00:00.897698sec
+Done Baseline: 0:00:00.484427sec
+Done All: 0:00:00.953781sec
 
 
 
@@ -8897,8 +8897,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.466611sec
-Done All: 0:00:01.499473sec
+Done Baseline: 0:00:00.503796sec
+Done All: 0:00:01.578850sec
 
 
 
@@ -9003,8 +9003,8 @@ React: 92 Pos: 93 Well: H9
 React: 93 Pos: 94 Well: H10
 React: 94 Pos: 95 Well: H11
 React: 95 Pos: 96 Well: H12
-Done Baseline: 0:00:00.169982sec
-Done All: 0:00:00.343030sec
+Done Baseline: 0:00:00.172585sec
+Done All: 0:00:00.359722sec
 
 
 

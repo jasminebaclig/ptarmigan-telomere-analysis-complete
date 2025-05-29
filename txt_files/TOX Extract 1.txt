@@ -57,41 +57,41 @@
 255;0;0;255	F9	08-062	TOX	25.21	0.01	-	Positive	Unchecked	Unknown	-	25.20	-	-	F9	SYBR Green I	 	0.09	1.05	None			69
 255;0;0;255	H12	08-095	TOX	28.36	0.00	-	Positive	Unchecked	Unknown	-	28.36	-	-	H11	SYBR Green I	 	0.13	0.76	None			96
 255;0;0;255	H11	08-095	TOX	28.36	0.00	-	Positive	Unchecked	Unknown	-	28.36	-	-	H11	SYBR Green I	 	0.10	0.61	None			95
-255;0;0;255	H10	08-068	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	H9	SYBR Green I	 	-	-				94
-255;0;0;255	H9	08-068	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	H9	SYBR Green I	 	-	-				93
-255;0;0;255	H8	08-047	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	H7	SYBR Green I	 	-	-				92
-255;0;0;255	H7	08-047	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	H7	SYBR Green I	 	-	-				91
-255;0;0;255	H6	08-034	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	H5	SYBR Green I	 	-	-				90
-255;0;0;255	H5	08-034	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	H5	SYBR Green I	 	-	-				89
-255;0;0;255	H4	08-015	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	H3	SYBR Green I	 	-	-				88
-255;0;0;255	H3	08-015	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	H3	SYBR Green I	 	-	-				87
+255;0;0;255	G8	08-046	TOX	24.33	0.00	-	Positive	Unchecked	Unknown	-	24.33	-	-	G7	SYBR Green I	 	0.10	1.12	Replicate group contains positives and negatives.			80
+255;0;0;255	F6	08-029	TOX	25.20	0.00	-	Positive	Unchecked	Unknown	-	25.20	-	-	F5	SYBR Green I	 	0.08	0.98	Replicate group contains positives and negatives.			66
+255;0;0;255	D1	08-112	TOX	24.92	0.00	-	Positive	Unchecked	Unknown	-	24.92	-	-	D1	SYBR Green I	 	0.10	1.11	Replicate group contains positives and negatives.			37
+255;0;0;255	C12	08-082	TOX	24.40	0.00	-	Positive	Unchecked	Unknown	-	24.40	-	-	C11	SYBR Green I	 	0.10	1.12	Replicate group contains positives and negatives.			36
+255;0;0;255	C4	08-007	TOX	25.13	0.00	-	Positive	Unchecked	Unknown	-	25.13	-	-	C3	SYBR Green I	 	0.08	0.96	Replicate group contains positives and negatives.			28
+255;0;0;255	A7	08-036	TOX	25.00	0.00	-	Positive	Unchecked	Unknown	-	25.00	-	-	A7	SYBR Green I	 	0.11	1.16	Replicate group contains positives and negatives.			7
+255;0;0;255	A4	08-004	TOX	24.99	0.00	-	Positive	Unchecked	Unknown	-	24.99	-	-	A3	SYBR Green I	 	0.13	1.26	Replicate group contains positives and negatives.			4
+255;0;0;255	H10	08-068	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	H9	SYBR Green I	 	0.06	0.82	None			94
+255;0;0;255	H9	08-068	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	H9	SYBR Green I	 	0.07	0.87	None			93
+255;0;0;255	H8	08-047	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	H7	SYBR Green I	 	0.06	0.82	None			92
+255;0;0;255	H7	08-047	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	H7	SYBR Green I	 	0.03	0.57	None			91
+255;0;0;255	H6	08-034	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	H5	SYBR Green I	 	0.08	0.57	None			90
+255;0;0;255	H5	08-034	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	H5	SYBR Green I	 	0.06	0.76	None			89
+255;0;0;255	H4	08-015	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	H3	SYBR Green I	 	0.03	0.53	None			88
+255;0;0;255	H3	08-015	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	H3	SYBR Green I	 	0.03	0.47	None			87
 255;0;0;0	H2	Negative	TOX	-	-	-	Negative	Unchecked	Negative control	-	-	-	-	H1	SYBR Green I	 	0.00	0.01	None			86
 255;0;0;0	H1	Negative	TOX	-	-	-	Negative	Unchecked	Negative control	-	-	-	-	H1	SYBR Green I	 	0.00	0.00	None			85
-255;0;0;255	G8	08-046	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	G7	SYBR Green I	 	-	-				80
-255;0;0;255	G7	08-046	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	G7	SYBR Green I	 	-	-				79
-255;0;0;255	G6	08-030	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	G5	SYBR Green I	 	-	-				78
-255;0;0;255	G5	08-030	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	G5	SYBR Green I	 	-	-				77
-255;0;0;255	G4	08-014	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	G3	SYBR Green I	 	-	-				76
-255;0;0;255	G3	08-014	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	G3	SYBR Green I	 	-	-				75
-255;0;0;255	F6	08-029	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	F5	SYBR Green I	 	-	-				66
-255;0;0;255	F5	08-029	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	F5	SYBR Green I	 	-	-				65
-255;0;0;255	F4	08-012	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	F3	SYBR Green I	 	-	-				64
-255;0;0;255	F3	08-012	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	F3	SYBR Green I	 	-	-				63
+255;0;0;255	G7	08-046	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	G7	SYBR Green I	 	0.05	0.75	Replicate group contains positives and negatives.			79
+255;0;0;255	G6	08-030	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	G5	SYBR Green I	 	0.07	0.88	None			78
+255;0;0;255	G5	08-030	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	G5	SYBR Green I	 	0.08	0.95	None			77
+255;0;0;255	G4	08-014	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	G3	SYBR Green I	 	0.07	0.87	None			76
+255;0;0;255	G3	08-014	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	G3	SYBR Green I	 	0.06	0.44	None			75
+255;0;0;255	F5	08-029	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	F5	SYBR Green I	 	0.05	0.68	Replicate group contains positives and negatives.			65
+255;0;0;255	F4	08-012	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	F3	SYBR Green I	 	0.07	0.90	None			64
+255;0;0;255	F3	08-012	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	F3	SYBR Green I	 	0.07	0.51	None			63
 255;0;0;255	E2		TOX	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	E1	SYBR Green I	 	0.00	0.00	None			50
 255;0;0;255	E1		TOX	-	-	-	Negative	Unchecked	Non reverse transcription control	-	-	-	-	E1	SYBR Green I	 	0.00	0.00	None			49
-255;0;0;255	D2	08-112	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	D1	SYBR Green I	 	-	-				38
-255;0;0;255	D1	08-112	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	D1	SYBR Green I	 	-	-				37
-255;0;0;255	C12	08-082	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	C11	SYBR Green I	 	-	-				36
-255;0;0;255	C11	08-082	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	C11	SYBR Green I	 	-	-				35
-255;0;0;255	C4	08-007	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	C3	SYBR Green I	 	-	-				28
-255;0;0;255	C3	08-007	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	C3	SYBR Green I	 	-	-				27
+255;0;0;255	D2	08-112	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	D1	SYBR Green I	 	0.07	0.93	Replicate group contains positives and negatives.			38
+255;0;0;255	C11	08-082	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	C11	SYBR Green I	 	0.08	0.93	Replicate group contains positives and negatives.			35
+255;0;0;255	C3	08-007	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	C3	SYBR Green I	 	0.08	0.93	Replicate group contains positives and negatives.			27
 255;0;0;255	B12	08-077	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	B11	SYBR Green I	 	-	-				24
 255;0;0;255	B11	08-077	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	B11	SYBR Green I	 	-	-				23
-255;0;0;255	B10	08-049	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	B9	SYBR Green I	 	-	-				22
-255;0;0;255	B9	08-049	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	B9	SYBR Green I	 	-	-				21
-255;0;0;255	A10	08-048	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	A9	SYBR Green I	 	-	-				10
-255;0;0;255	A9	08-048	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	A9	SYBR Green I	 	-	-				9
-255;0;0;255	A8	08-036	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	A7	SYBR Green I	 	-	-				8
-255;0;0;255	A7	08-036	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	A7	SYBR Green I	 	-	-				7
-255;0;0;255	A4	08-004	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	A3	SYBR Green I	 	-	-				4
-255;0;0;255	A3	08-004	TOX	-	-	-	-	Checked	Unknown	-	-	-	-	A3	SYBR Green I	 	-	-				3
+255;0;0;255	B10	08-049	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	B9	SYBR Green I	 	0.08	0.96	None			22
+255;0;0;255	B9	08-049	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	B9	SYBR Green I	 	0.07	0.95	None			21
+255;0;0;255	A10	08-048	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	A9	SYBR Green I	 	0.06	0.77	None			10
+255;0;0;255	A9	08-048	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	A9	SYBR Green I	 	0.04	0.57	None			9
+255;0;0;255	A8	08-036	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	A7	SYBR Green I	 	0.05	0.73	Replicate group contains positives and negatives.			8
+255;0;0;255	A3	08-004	TOX	-	-	-	Negative	Unchecked	Unknown	-	-	-	-	A3	SYBR Green I	 	0.05	0.72	Replicate group contains positives and negatives.			3

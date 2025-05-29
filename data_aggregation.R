@@ -71,7 +71,8 @@ combined_amanda$year = as.factor(combined_amanda$year)
 
 # Combines all data
 combined_data <- left_join(lm_data, select(combined_kpm, -year), by = join_by(id == id)) %>%
-                 left_join(select(combined_amanda, -year, -WeightNE, -Wing, -Head), by = join_by(id == BirdID))
+                 left_join(select(combined_amanda, -year, -WeightNE, -Wing, -Head), by = join_by(id == BirdID)) %>%
+                 unique()
 write.csv(combined_data, "lm_data.csv")
 
 
