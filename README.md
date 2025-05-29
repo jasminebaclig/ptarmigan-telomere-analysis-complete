@@ -24,6 +24,7 @@ Authors: Jasmine Baclig, Molly J. Hansen
   - Go to "File" > "Save As", and in the "Save as type" drop-down menu, select "RDML file". Save this in rdml_files.
   - In the "Analysis" tab, find the "Results Table" and click the top-leftmost cell to select all cells. Right-click anywhere in the middle, and click "Export to File". Save this TXT file in txt_files, and make sure that the name matches with the corresponding RDML file in rdml_files (or at least they are in the same order/position in their own folder after the files are sorted alphabetically by rtl_calculation.R).
 - Run linregpcr.py (Note: this can be run in RStudio). Afterward, check if there are the same number of files in indiv_effic_files as there are in rdml_files.
+  - Instructions to install or download the RDML-Python library can be found in [their website](https://rdml.org/referenceImplement.html).
   - You might run into a problem when running this code for the first time. If accompanied by the appropriate error message, this could be solved by changing all instances of "np.NaN" to "np.nan" in rdml.py that is part of the LinRegPCR package.
 - If ptarmigan data already included in this repository will be used, run main_script.R.
 - If different data will be used only for calculating relative telomere lengths, run rtl_calculation.R. Here are some important dataframes in this code:
